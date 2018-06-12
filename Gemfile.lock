@@ -213,11 +213,12 @@ DEPENDENCIES
   rack-jekyll
   rb-readline
   rspec
+  ruby-oembed
   selenium-webdriver
   simplecov
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.4.2p198
 
 BUNDLED WITH
-   1.14.6
+   1.16.1
