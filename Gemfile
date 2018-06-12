@@ -7,6 +7,7 @@ gem 'html-proofer', '~> 3.6.0'
 gem 'jekyll', '~> 3.3.0'
 gem 'jemoji'
 gem 'parallel'
+gem 'ruby-oembed'
 
 group :jekyll_plugins do
   gem 'jekyll-archives', git: 'git://github.com/jekyll/jekyll-archives.git', ref: '112c508'
