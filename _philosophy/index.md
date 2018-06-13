@@ -59,42 +59,64 @@ No matter where your community is in its open data work, we hope you enjoy readi
 
 ## Step 1: Find
 
-We envision a country whose government consistently offers digital services that instill pride and trust, meet user needs, are secure, and are delivered quickly and at reasonable cost.
+**Find a focus area by observing the community.**
 
-We develop partnerships with agencies to help them deliver exceptional digital experiences that address their strategic initiatives. Through our work together, we also aim to strengthen government technology practices in ways that last beyond our formal partnerships. We effect change by practicing user-centered development, testing to validate hypotheses, shipping often, and deploying products in the open.
+* **THE ACTION:** Identify a general focus area with potential opportunities for the community use of open data.
+* **THE ENGAGEMENT:** Observe, listen to, and analyze community needs.
+* **THE COLLABORATORS:** A broad group of community members who can illuminate potentially impactful focus areas.
+* **THE RESULT:** A focus area where community voices and needs suggest impactful opportunities for the community use of open data.
+
+The first step in TDE is listening to your community’s priorities and concerns, and identifying the issue areas where open data might help. You may already be listening to residents’ concerns and needs by conducting surveys, maintaining relationships with trusted community groups, or regularly joining community meetings. Use each opportunity you have to collect and analyze broad community interest in open data. This is an opportunity to pay attention to any communities that are missing or excluded from conversations about public data and decision-making.
+
+As you listen to and observe the community’s needs, identify opportunities where public data or information would empower residents to better understand, address, or collaborate to solve their concerns. Observe whether a majority of promising opportunities for the use of open data are clustered around a single issue or focus area. After listening to a variety of challenges that might require the community use of open data, choose a focus area by aligning those opportunities with the city’s on-going strategic priorities as well as with the cities information holdings.
 
 -----
 
 ## Step 2: Refine
 
-We are a team of about 200 designers, software engineers, strategists, and product managers — all federal employees. We have offices in DC, San Francisco, Chicago, and New York, as well as team members working remotely from all over the country.
+**Refine use cases by interviewing stakeholders.**
 
-Want to get to know our team a little better? These blog posts feature the voices of people from across 18F:
+* **THE ACTION:** Narrow and segment your focus area down to detailed use case scenarios, complete with user stories and personas that expose opportunities for the use of open data.
+* **THE ENGAGEMENT:** Collect context and information from specific stakeholders via direct conversations or interviews.
+* **THE COLLABORATORS:** Stakeholders who have academic or lived experience and insight into your chosen focus area, and who can refine the scenarios for potential open data use.
+* **THE RESULT:** A few promising open data use cases that outline the potential impact of supporting specific open data use scenarios via user stories and user personas.
 
-- [We asked 100 of our coworkers why they joined 18F]({{ site.baseurl }}/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/)
-- [We asked over 100 of our coworkers: What was your path to 18F?]({{ site.baseurl }}/2016/03/22/what-was-your-path-to-18f/)
-- [We asked over 100 of our coworkers what they've loved working on?]({{ site.baseurl }}/2016/03/23/what-have-you-loved-working-on/)
-- [We asked everyone at 18F to reflect on the most meaningful project they worked on this year]({{ site.baseurl }}/2015/12/23/looking-back-2015-our-own-words/)
+The second step in TDE is to refine your broad focus area into a more specific opportunity or “use case” with the help of people who have a deeper understanding of your chosen issue. “Use case” is a term meant to describe how data might be used by a certain user to solve a particular goal. The residents identified in these use cases will have “user personas” and you should take this time to develop your understanding of their stories. More than simply a problem statement, a use case scenario should dive deep into understanding a stakeholder who could use open data to address their concern within your focus area. In crafting various use case scenarios, remember that residents are experts in their own neighborhoods, communities, and issue areas, and listening to their knowledge will help refine the details around specific use cases in your focus area.
 
-We've also published [profiles of individuals]({{ site.baseurl }}/tags/staff-profiles/), if you want to learn more about our day-to-day work.
+To complete this step, you should narrow down a few promising use case scenarios with particularly strong community partner support, strong resident interest, or obviously relevant gaps in information or data. Hearing about residents’ data use scenarios and incorporating their thoughts into what you determine are “promising” opportunities will help residents’ experiences matter in ultimately crafting a TDE intervention. Being as detailed as possible in this stage ensures that when you craft an intervention to address a single use case later on, the result will have dedicated end users, who you identified in this step, and will meet their real needs.
 
 -----
 
 ## Step 3: Design
 
-In March 2014, a group of [Presidential Innovation Fellows](https://presidentialinnovationfellows.gov/) started 18F to extend their efforts to improve and modernize government technology.
+**Design a plan by coordinating with target users.**
 
-In 2016, 18F became part of the [Technology Transformation Services](https://www.gsa.gov/tts) (TTS), which also includes the Presidential Innovation Fellows program, the Office of Acquisitions, and the [Office of Products and Programs](https://www.gsa.gov/portal/content/124174). Like GSA's other services (the Federal Acquisition Service and the Public Building Service), TTS provides tools, services, and resources to help other agencies serve the public.
+* **THE ACTION:** Select a single use case, and draft a plan for an intervention to support that use case.
+* **THE ENGAGEMENT:** Share a draft plan and ask for feedback through multiple avenues.
+* **THE COLLABORATORS:** Intended users of open data, based on the target audience for a specific intervention to support your chosen open data use case.
+* **THE RESULT:** A user-informed plan that outlines an intervention to actively support and facilitate your chosen open data use case.
 
-**What does 18F mean?**
+Examine your use cases from Step 2 and select a single one that has the most potential for an effective intervention. Take into account both your capacity and stakeholder interest. Limiting the opportunities in this step is crucial for taking a tactical, focused approach to facilitating the community use of open data, one use case scenario at a time.
 
-Our name is short for the address of the GSA building where we're headquartered in Washington, DC: 1800 F Street.
+Narrow down which specific stakeholders will be the intended users of relevant data and work more closely with them to begin mapping interventions like products, projects, or tools. Note that you are not carrying out an intervention in this step, but rather putting together a plan that you will carry out. Review the [implementation tactics in Step 4](https://sunlight-foundation.gitbooks.io/tactical-data-engagement/content/4-implement.html) so you can plan ahead accordingly. The plan generated in this step should outline the intervention that supports your chosen use case, and should feature feedback from intended users on how they would like to be incorporated.
+
+Planning alongside the your intended users entails either collaboratively drafting a plan or soliciting feedback on a draft plan and incorporating responses. Collaborative planning with the intended data users in your community is essential for ensuring that planned interventions address exactly what data users need and account for details of implementation, for example, ensuring that the community agrees on who should house the project or sustain it once the government’s role is complete. A plan that hasn’t been reviewed by residents is less likely to be effective.
+
+**“How formal does my plan need to be?”** It depends on your context. In a community that has already had lots of conversations about open data and shared goals, a short back and forth over email or an in-person conversation at a community meeting might be enough. In a community where there is less common understanding, you will probably need to do more work building consensus. The idea of Tactical Data Engagement is to focus on a specific end goal — use your judgment about how to best achieve that.
+
+-----
 
 ## Step 4: Implement
 
-We are cost-recoverable, which means we don't receive appropriated funds from Congress and must charge partner agencies for our work. There are two authorities we use to recover costs:
+**Implement an intervention by collaborating with actual users.**
 
-- Acquisition Services Fund (ASF) reimbursement authority: for work related to acquisitions
-- [Economy Act (PDF)](http://www.gc.noaa.gov/documents/mou-economyact.pdf) reimbursement authority: for projects that cannot use ASF reimbursement authority
+* **THE ACTION:** Execute your plan to carry out an intervention that supports the use case opportunity you outlined for better open data use in the community.
+* **THE ENGAGEMENT:** Work with actual users to ensure the intervention meets their needs.
+* **THE COLLABORATORS:** Members of the community who are the final, actual users of your open data.
+* **THE RESULT:** A product, tool, or completed project where specific community members use open data in a new way thanks to your partnership and intervention.
 
-We use [Interagency Agreements](https://pages.18f.gov/iaa-forms/) (IAAs) to set up the terms of our projects, and bill partners through [Intra-Governmental Payment and Collection](https://www.fiscal.treasury.gov/fsservices/gov/acctg/ipac/ipac_home.htm) (IPAC) on a monthly basis.
+This step is where you should help actual users, identified in the course of the method’s previous steps, to carry out the planned intervention that addresses your community-approved open data use case. Carrying out this intervention is the culmination of facilitating community use of open data. We developed the tactics in this section based on interventions that data providers and cities have used to facilitate community use of open data through projects, tools, or products. The opportunity to facilitate data use may mean sharing datasets that are not currently available in formats and with contents that best suit the needs of the requesters.
+
+Commit to consistent or open feedback channels with residents to ensure you met needs and are driving toward impact. Note that the first solution may not always be the best one, and that those members of the community who contributed to the project — and who are the primary users or beneficiaries of community improvements through the use of open data — have crucial insight into any product’s usability.
+
+The tactic you choose at this stage should build on your work from Steps 1, 2, and 3 and should meet the community’s needs as directly as possible.
