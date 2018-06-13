@@ -31,7 +31,6 @@ gridless: true
   </ul>
 </aside>
 <div class="usa-grid usa-section usa-width-two-thirds">
-{% markdown %}
 
 ### Let’s work together to improve the user experience of government.
 
