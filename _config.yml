@@ -9,7 +9,7 @@ localhost: "localhost:4000"
 env: "production"
 logo: /assets/img/logos/sunlight-logo-dark.png
 tag_dir: tags
-github_repo: https://github.com/18F/18f.gsa.gov/blob/master
+github_repo: https://github.com/sunlightpolicy/open-data-for-communities/blob/master
 
 related_posts: 3
 
