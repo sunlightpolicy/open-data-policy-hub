@@ -38,8 +38,6 @@ Use the button below to email us about the problem you'd like to solve, and weâ€
 
 To learn more about how we work with agencies, read up on our [past projects]({{ site.baseurl }}/what-we-deliver), explore our [Partnership Principles]({{site.baseurl}}/partnership-principles/), or learn about [how weâ€™re funded]({{ site.baseurl }}/about/#funding-and-agreements).
 
-{% endmarkdown %}
-
 <a class="usa-button usa-button-marginless" href="mailto:inquiries18F@gsa.gov?subject=Partnering%20with%2018F&body=What%27s%20your%20name%3F%0A%0AWhat%20agency%20or%20office%20do%20you%20work%20for%3F%0A%0AWhat%27s%20your%20job%20title%20or%20role%3F%0A%0ATell%20us%20a%20little%20about%20the%20problems%20you%27re%20working%20on%2C%20or%20what%20project%20you%27re%20hoping%20to%20work%20on%20with%2018F:%0A%0AIf%20you%27d%20like%20us%20to%20call%20you%2C%20what%27s%20your%20phone%20number%3F%0A">Email us</a>
 </div>
 
