@@ -5,8 +5,8 @@ navbar:
     - /what-we-deliver/:path/
 - text: How we work
   permalink: /how-we-work/
-- text: About
-  permalink: /about/
+- text: Philosophy
+  permalink: /philosophy/
 - text: Blog
   permalink: /blog/
   multiple_permalinks:
@@ -23,8 +23,8 @@ drawer:
     - /what-we-deliver/:path/
   - text: How we work
     permalink: /how-we-work/
-  - text: About
-    permalink: /about/
+  - text: Philosophy
+    permalink: /philosophy/
   - text: Blog
     permalink: /blog/
     multiple_permalinks:
@@ -39,8 +39,8 @@ footer:
     permalink: /what-we-deliver/
     multiple_permalinks:
     - /what-we-deliver/:path/
-  - text: About
-    permalink: /about/
+  - text: Philosophy
+    permalink: /philosophy/
   - text: Partnership Principles
     permalink: /partnership-principles/
   - text: Join 18F

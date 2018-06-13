@@ -33,7 +33,7 @@ jekyll-archives:
     tag: '/tags/:name/'
 
 collections:
-  about:
+  philosophy:
     output: true
     permalink: /:path/
   principles:
@@ -89,11 +89,11 @@ defaults:
     subnav_anchor: /contact/
  -
   scope:
-    path: "_about"
+    path: "_philosophy"
   values:
     layout: primary
     include_subnav: true
-    subnav_anchor: /about/
+    subnav_anchor: /philosophy/
  -
   scope:
     path: "_code_of_conduct"
