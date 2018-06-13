@@ -1,8 +1,8 @@
 navbar:
-- text: What we deliver
-  permalink: /what-we-deliver/
+- text: Discovery
+  permalink: /discovery/
   multiple_permalinks:
-    - /what-we-deliver/:path/
+    - /discovery/:path/
 - text: How we work
   permalink: /how-we-work/
 - text: Philosophy
@@ -17,10 +17,10 @@ navbar:
   permalink: /contact/
 
 drawer:
-  - text: What we deliver
-    permalink: /what-we-deliver/
+  - text: Discovery
+    permalink: /discovery/
     multiple_permalinks:
-    - /what-we-deliver/:path/
+    - /discovery/:path/
   - text: How we work
     permalink: /how-we-work/
   - text: Philosophy
@@ -35,10 +35,10 @@ drawer:
     permalink: /contact/
 
 footer:
-  - text: What we deliver
-    permalink: /what-we-deliver/
+  - text: Discovery
+    permalink: /discovery/
     multiple_permalinks:
-    - /what-we-deliver/:path/
+    - /discovery/:path/
   - text: Philosophy
     permalink: /philosophy/
   - text: Partnership Principles
