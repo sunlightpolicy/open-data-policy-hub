@@ -39,7 +39,11 @@ header_border: true
   </section>
 
   <div class="usa-grid-full usa-grid-reversed">
-    {% assign any_clients = page.product_clients.size > 0 %}
+    {% if page.product_clients.size > 0 %}
+      {% assign any_clients = true %}
+    {% else %}
+      {% assign any_clients = false %}
+    {% endif %}
 
     {% if page.agency or
           page.project_url or
