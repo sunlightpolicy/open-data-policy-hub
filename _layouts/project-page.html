@@ -102,10 +102,14 @@ header_border: true
           <div>
           {% if page.start_date and page.expiration_date %}
             {{ page.start_date }} – {{ page.expiration_date }}
-          {% elsif page.start_date and !page.expiration_date %}
+          {% elsif page.start_date %}
+            {% unless page.expiration_date %}
             Starts {{ page.start_date }}
-          {% elsif !page.start_date and page.expiration_date %}
+            {% endunless %}
+          {% elsif page.expiration_date %}
+            {% unless page.start_date %}
             Ends {{ page.expiration_date }}
+            {% endunless %}
           {% endif %}
           </div>
         </li>
