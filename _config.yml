@@ -186,13 +186,13 @@ exclude:
 - vendor
 
 # jekyll plugins
-gems:
-  # - jekyll-sitemap
-  # - jekyll-archives
-  # - jekyll-redirect-from
-  # - jekyll-feed
-  # - jekyll-seo-tag
-  # - jekyll-paginate
+# gems:
+#   - jekyll-sitemap
+#   - jekyll-archives
+#   - jekyll-redirect-from
+#   - jekyll-feed
+#   - jekyll-seo-tag
+#   - jekyll-paginate
 
 # Configuration for jekyll_pages_api_search plugin gem.
 jekyll_pages_api_search:
