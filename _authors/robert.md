@@ -5,6 +5,6 @@ last_name: Read
 name: robert
 redirect_from: 
 alumni: true
-published: true
+published: false
 ---
 

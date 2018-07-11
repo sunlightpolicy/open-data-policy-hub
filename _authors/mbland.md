@@ -5,6 +5,6 @@ full_name: Mike Bland
 last_name: Bland
 redirect_from: 
 alumni: true
-published: true
+published: false
 ---
 

@@ -5,5 +5,6 @@ last_name: Krause
 full_name: Nicky Krause
 guest: 
 redirect_from: 
-published: true
+published: false
 ---
+

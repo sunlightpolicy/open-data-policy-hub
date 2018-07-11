@@ -5,6 +5,6 @@ last_name: Herron
 full_name: Sean Herron
 redirect_from: 
 alumni: true
-published: true
+published: false
 ---
 

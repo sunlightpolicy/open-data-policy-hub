@@ -5,6 +5,6 @@ last_name: Lane
 name: kinlane
 redirect_from: 
 alumni: true
-published: true
+published: false
 ---
 

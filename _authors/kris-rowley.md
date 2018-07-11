@@ -5,6 +5,6 @@ last_name: Rowley
 full_name: Kris Rowley
 guest: true
 redirect_from: 
-published: true
+published: false
 ---
 

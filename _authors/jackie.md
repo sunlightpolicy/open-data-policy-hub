@@ -5,6 +5,6 @@ last_name: Kazil
 name: jackie
 redirect_from: 
 alumni: true
-published: true
+published: false
 ---
 

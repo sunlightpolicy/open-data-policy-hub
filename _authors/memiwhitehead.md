@@ -5,6 +5,6 @@ full_name: Memi Whitehead
 name: memiwhitehead
 guest: true
 redirect_from: 
-published: true
+published: false
 ---
 

@@ -5,6 +5,6 @@ last_name: Majma
 full_name: Raphael Majma
 redirect_from: 
 alumni: true
-published: true
+published: false
 ---
 

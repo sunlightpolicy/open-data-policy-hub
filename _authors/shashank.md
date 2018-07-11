@@ -8,6 +8,6 @@ redirect_from:
 - "/team/khandelwal/"
 - "/team/shashank/"
 - "/author/khandelwal/"
-published: true
+published: false
 ---
 

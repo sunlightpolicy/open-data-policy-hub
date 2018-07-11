@@ -5,6 +5,6 @@ last_name: Woodworth
 full_name: Jeff Woodworth
 guest: true
 redirect_from: 
-published: true
+published: false
 ---
 

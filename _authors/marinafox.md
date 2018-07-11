@@ -6,6 +6,6 @@ last_name: Fox
 guest: true
 url: https://www.digitalgov.gov/author/mfox/
 redirect_from: 
-published: true
+published: false
 ---
 

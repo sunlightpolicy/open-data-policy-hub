@@ -5,6 +5,6 @@ last_name: Godbout
 full_name: Greg Godbout
 redirect_from: 
 alumni: true
-published: true
+published: false
 ---
 
