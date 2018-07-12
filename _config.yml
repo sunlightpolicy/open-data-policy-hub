@@ -10,6 +10,7 @@ env: "production"
 logo: /assets/img/logos/sunlight-logo-dark.png
 tag_dir: tags
 github_repo: https://github.com/sunlightpolicy/open-data-for-communities/blob/master
+baseurl: "/open-data-for-communities"
 
 related_posts: 3
 
