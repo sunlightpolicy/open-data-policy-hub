@@ -3,8 +3,8 @@ title: "Open data for communities"
 description: "An incredible sentence about open data, local communities, and user-centered design."
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: pretty
-url: "https://18f.gsa.gov" # the base hostname & protocol for your sites
-federalist_url: "https://federalist.18f.gov"
+# url: "https://18f.gsa.gov" # the base hostname & protocol for your sites
+# federalist_url: "https://federalist.18f.gov"
 localhost: "localhost:4000"
 env: "production"
 logo: /assets/img/logos/sunlight-logo-dark.png
