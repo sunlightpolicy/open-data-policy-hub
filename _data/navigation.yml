@@ -1,36 +1,24 @@
 navbar:
-- text: Discovery
+- text: Discovery methods
   permalink: /discovery/
   multiple_permalinks:
     - /discovery/:path/
-- text: How we work
-  permalink: /how-we-work/
+- text: Action methods
+  permalink: /action/
 - text: Philosophy
   permalink: /philosophy/
-- text: Blog
-  permalink: /blog/
-  multiple_permalinks:
-    - /blog/:path/
-    - /tags/:path/
-    - /author/:path/
 - text: Contact
   permalink: /contact/
 
 drawer:
-  - text: Discovery
+  - text: Discovery methods
     permalink: /discovery/
     multiple_permalinks:
     - /discovery/:path/
-  - text: How we work
-    permalink: /how-we-work/
+  - text: Action methods
+    permalink: /action/
   - text: Philosophy
     permalink: /philosophy/
-  - text: Blog
-    permalink: /blog/
-    multiple_permalinks:
-      - /blog/:path/
-      - /tags/:path/
-      - /author/:path/
   - text: Contact
     permalink: /contact/
 
