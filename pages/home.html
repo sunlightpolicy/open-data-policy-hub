@@ -57,8 +57,38 @@ redirect_from: /dashboard/
 
 <section class="usa-section background-gray">
   <section class="usa-grid">
-    <h2>Featured projects</h2>
-    {% include card-project.html
+    <h2>Featured resources?</h2>
+    {% include card.html
+       image_src="/assets/img/home/hero-fec.png"
+       image_alt=project.image_accessibility
+       image_icon=project.image_icon
+       agency="Fusce maximus ipsum"
+       tagline="Pellentesque rhoncus lacus a massa bibendum"
+       description="Praesent elementum malesuada ante ac bibendum. In condimentum non mauris quis vestibulum."
+       link=project.permalink
+       columns=3
+    %}
+    {% include card.html
+       image_src="/assets/img/projects/data-act-better-data.jpg"
+       image_alt=project.image_accessibility
+       image_icon=project.image_icon
+       agency="Fusce maximus ipsum"
+       tagline="Pellentesque rhoncus lacus a massa bibendum"
+       description="Praesent elementum malesuada ante ac bibendum. In condimentum non mauris quis vestibulum."
+       link=project.permalink
+       columns=3
+    %}
+    {% include card.html
+       image_src="/assets/img/projects/calc.png"
+       image_alt=project.image_accessibility
+       image_icon=project.image_icon
+       agency="Fusce maximus ipsum"
+       tagline="Pellentesque rhoncus lacus a massa bibendum"
+       description="Praesent elementum malesuada ante ac bibendum. In condimentum non mauris quis vestibulum."
+       link=project.permalink
+       columns=3
+    %}
+    <!-- {% include card-project.html
        project='fec-gov'
     %}
     {% include card-project.html
@@ -67,20 +97,69 @@ redirect_from: /dashboard/
 
     {% include card-project.html
        project='calc'
-    %}
+    %} -->
   </section>
 </section>
 
 <section class="usa-grid usa-section posts_feature">
   <h2><a href="{{ site.baseurl }}/blog/">Recent blog posts</a></h2>
   <ul>
-    {% for post in site.posts limit:3 %}
+    <!-- {% for post in site.posts limit:3 %}
       {% include post.html
          post_date=post.date
          post_title=post.title
          post_excerpt=post.excerpt
          post_url=post.url
       %}
-    {% endfor %}
+    {% endfor %} -->
+    <li class="post usa-width-one-third usa-width-tablet">
+      <article>
+        <p class="post-date">{{ "2018-07-09" | date: "%B %-d, %Y" }}</p>
+        <h3 class="h4 posts_feature-heading">
+          <a class="post-link" href="https://sunlightfoundation.com/2018/07/09/new-interactive-tools-community-data-needs/">Use our new tools to learn about community data needs</a>
+        </h3>
+        <p class="post-excerpt">We’re releasing a list of engagement methods for beginning to understand community needs and a self-assessment quiz for you to check whether you know enough about your community to launch an open data project.</p>
+        <p>
+          <a class="link-arrow-right post-link-continue_reading" href="https://sunlightfoundation.com/2018/07/09/new-interactive-tools-community-data-needs/">
+            Read more
+            <span class="usa-sr-only"></span>
+            {% include svg/icons/arrow-right.svg %}
+          </a>
+        </p>
+      </article>
+    </li>
+    <li class="post usa-width-one-third usa-width-tablet">
+      <article>
+        <p class="post-date">{{ "2018-06-15" | date: "%B %-d, %Y" }}</p>
+        <h3 class="h4 posts_feature-heading">
+          <a class="post-link" href="https://sunlightfoundation.com/2018/06/15/were-collecting-user-personas-for-open-data-send-us-yours/">We’re collecting user personas for open data — send us yours!</a>
+        </h3>
+        <p class="post-excerpt">This summer, we’re doing a project to collect all existing examples of cities’ user personas for open data and government websites, and help develop best practices for other cities that are looking to create them.</p>
+        <p>
+          <a class="link-arrow-right post-link-continue_reading" href="https://sunlightfoundation.com/2018/06/15/were-collecting-user-personas-for-open-data-send-us-yours/">
+            Read more
+            <span class="usa-sr-only"></span>
+            {% include svg/icons/arrow-right.svg %}
+          </a>
+        </p>
+      </article>
+    </li>
+    <li class="post usa-width-one-third usa-width-tablet">
+      <article>
+        <p class="post-date">{{ "2018-05-23" | date: "%B %-d, %Y" }}</p>
+        <h3 class="h4 posts_feature-heading">
+          <a class="post-link" href="https://sunlightfoundation.com/2018/05/23/how-could-open-data-help-austin-texas-better-serve-people-experiencing-homelessness/">How could open data help Austin, Texas better serve people experiencing homelessness?</a>
+        </h3>
+        <p class="post-excerpt">To understand more about what the city has learned in their process thus far and how they’re thinking about open data as it relates to this work, we interviewed Austin’s Chief Innovation Officer.</p>
+        <p>
+          <a class="link-arrow-right post-link-continue_reading" href="https://sunlightfoundation.com/2018/05/23/how-could-open-data-help-austin-texas-better-serve-people-experiencing-homelessness/">
+            Read more
+            <span class="usa-sr-only"></span>
+            {% include svg/icons/arrow-right.svg %}
+          </a>
+        </p>
+      </article>
+    </li>
+
   </ul>
 </section>
