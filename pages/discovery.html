@@ -20,7 +20,7 @@ gridless: true
     <div class="usa-width-two-thirds">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus ipsum ac nisl suscipit, quis rutrum libero euismod. Vestibulum placerat condimentum pellentesque. Aenean viverra elit ut dui imperdiet semper. Sed pulvinar ligula sit amet purus tristique, sed blandit lorem mollis. Nullam pulvinar mollis eros ornare tempor.</p>
       <br>
-      <h3>User research</h3>
+      <h3>Conducting user research</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus ipsum ac nisl suscipit, quis rutrum libero euismod. Vestibulum placerat condimentum pellentesque. Aenean viverra elit ut dui imperdiet semper. Sed pulvinar ligula sit amet purus tristique, sed blandit lorem mollis. Nullam pulvinar mollis eros ornare tempor:</p>
     </div>
   </section>
@@ -30,8 +30,17 @@ gridless: true
   <section class="usa-section">
     <div class="usa-section-bottom">
       <div class="usa-flex usa-flex-wrap">
+        {% include card.html
+         image_src=project.image
+         image_alt=project.image_accessibility
+         image_icon=project.image_icon
+         agency=project.agency
+         tagline="Question guide"
+         description=project.excerpt
+         link=project.permalink
+        %}
         {% assign projects_list = site | find_collection: 'services_projects' | weighted_sort: 'project_weight', 'title' %}
-        {% for project in projects_list limit:6 %}
+        {% for project in projects_list limit:3 %}
           {% include card.html
            image_src=project.image
            image_alt=project.image_accessibility
@@ -60,18 +69,24 @@ gridless: true
   <section class="usa-section">
     <div class="usa-section-bottom">
       <div class="usa-flex usa-flex-wrap">
-        {% assign projects_list = site | find_collection: 'products_projects' | weighted_sort: 'project_weight', 'title' %}
-        {% for project in projects_list limit:3 %}
-          {% include card.html
-           image_src=project.image
-           image_alt=project.image_accessibility
-           image_icon=project.image_icon
-           agency=project.agency
-           tagline=project.title
-           description=project.excerpt
-           link=project.permalink
-          %}
-        {% endfor %}
+        {% include card.html
+         image_src=project.image
+         image_alt=project.image_accessibility
+         image_icon=project.image_icon
+         agency=project.agency
+         tagline="Toolkit for how to develop user personas"
+         description="Including best practices (with links to outside resources), blank templates, and a workshop outline"
+         link=project.permalink
+        %}
+        {% include card.html
+         image_src="/assets/img/personas/newyork-community-champion.png"
+         image_alt=project.image_accessibility
+         image_icon=project.image_icon
+         agency=project.agency
+         tagline="Library of user personas"
+         description=project.excerpt
+         link="/personas-library/"
+        %}
       </div>
     </div>
   </section>
