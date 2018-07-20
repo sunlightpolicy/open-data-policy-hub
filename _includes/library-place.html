@@ -1,0 +1,30 @@
+<div class="usa-grid">
+  <section class="usa-section">
+    <div class="usa-width-two-thirds">
+      <h3>{{ include.place_title }}</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus ipsum ac nisl suscipit, quis rutrum libero euismod. Vestibulum placerat condimentum pellentesque. Aenean viverra elit ut dui imperdiet semper. Sed pulvinar ligula sit amet purus tristique, sed blandit lorem mollis. Nullam pulvinar mollis eros ornare tempor:</p>
+    </div>
+  </section>
+</div>
+
+<div class="usa-grid">
+  <section class="usa-section">
+    <div class="usa-section-bottom">
+      <div class="usa-flex usa-flex-wrap">
+        {% assign place_personas = site.data.personas_list | where: "place", include.place_code %}
+        {% for persona in place_personas %}
+        {% capture name_string %}{% if persona.name %}{{ persona.name }}{% endif %}{% if persona.age %}, {{ persona.age }}{% endif %}{% endcapture %}
+        {% include card.html
+         image_src="/assets/img/personas/newyork-meticulous-mapper.png"
+         image_alt=project.image_accessibility
+         image_icon=project.image_icon
+         agency=name_string
+         tagline=persona.title
+         description=persona.desc
+         link=persona.link
+        %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</div>
