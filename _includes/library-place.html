@@ -2,7 +2,17 @@
   <section class="usa-section">
     <div class="usa-width-two-thirds">
       <h3>{{ include.place_title }}</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus ipsum ac nisl suscipit, quis rutrum libero euismod. Vestibulum placerat condimentum pellentesque. Aenean viverra elit ut dui imperdiet semper. Sed pulvinar ligula sit amet purus tristique, sed blandit lorem mollis. Nullam pulvinar mollis eros ornare tempor:</p>
+      {% assign place_info = site.data.personas_place_descrips | where: "place_code", include.place_code | first %}
+      {% assign place_desc = place_info | map: "place_desc" %}
+      {% assign place_link = place_info | map: "read_more_link" %}
+      <p>{{ place_desc }}</p>
+      <p>
+        <a href="{{ place_link }}" class="card-cta link-arrow-right" tabindex="0">
+          Read more
+          <span class="usa-sr-only">about {{ include.place_title }}</span>
+          {% include svg/icons/arrow-right.svg %}
+        </a>
+      </p>
     </div>
   </section>
 </div>
