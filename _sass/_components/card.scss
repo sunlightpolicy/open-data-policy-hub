@@ -84,10 +84,9 @@ $card-image-height: 200px;
 }
 
 .card-image-bg {
-  background-color: $color-gray-lightest;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   height: $card-image-height;
   margin: 0;
   padding: 0;
