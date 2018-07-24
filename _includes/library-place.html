@@ -5,7 +5,7 @@
       <p>{{ include.place_desc }}</p>
       {% for link in include.links %}
         <p>
-          <a href="{{ link[1] }}" class="card-cta link-arrow-right" tabindex="0">
+          <a href="{{ link[1] }}" class="link-arrow-right" tabindex="0">
             {{ link[0] }}
             <span class="usa-sr-only">about {{ include.place_name }}</span>
             {% include svg/icons/arrow-right.svg %}
