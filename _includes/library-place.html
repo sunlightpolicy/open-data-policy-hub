@@ -26,14 +26,15 @@
         {% assign place_personas = site.data.personas_list | where: "place", include.place_code %}
         {% for persona in place_personas %}
         {% capture name_string %}{% if persona.name %}{{ persona.name }}{% endif %}{% if persona.age %}, {{ persona.age }}{% endif %}{% endcapture %}
+        {% assign image_location = "/assets/img/personas/" | append: persona.image %}
         {% include card.html
-         image_src="/assets/img/personas/newyork-meticulous-mapper.png"
-         image_alt=project.image_accessibility
-         image_icon=project.image_icon
-         agency=name_string
-         tagline=persona.title
-         description=persona.desc
-         link=persona.link
+          image_src=image_location
+          image_alt=project.image_accessibility
+          image_icon=project.image_icon
+          agency=name_string
+          tagline=persona.title
+          description=persona.desc
+          link=persona.link
         %}
         {% endfor %}
       </div>
