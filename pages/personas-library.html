@@ -9,13 +9,26 @@ banner_cta: true
 gridless: true
 ---
 
-{% include library-place.html place_title="New York, NY" place_code="NYC" %}
-{% include library-place.html place_title="Madison, WI" place_code="Madison/Reboot" %}
-{% include library-place.html place_title="Columbus, OH" place_code="MORPC" %}
-{% include library-place.html place_title="Pittsburgh, PA" place_code="WPRDC" %}
-{% include library-place.html place_title="Collections as Data" place_code="collection as data" %}
-{% include library-place.html place_title="Austin, TX (General)" place_code="Austin" %}
-{% include library-place.html place_title="Austin, TX (Homelessness)" place_code="Austin - Homelessness" %}
+{% for place in site.data.personas_places %}
+  {% unless place.exclude == true %}
+    {% include library-place.html
+      place_code=place.place_code
+      place_name=place.place_name
+      place_desc=place.description
+      links=place.links
+      %}
+  {% endunless %}
+{% endfor %}
+
+<hr>
+
+{% include library-place.html place_name="New York, NY" place_code="NYC" %}
+{% include library-place.html place_name="Madison, WI" place_code="Madison/Reboot" %}
+{% include library-place.html place_name="Columbus, OH" place_code="MORPC" %}
+{% include library-place.html place_name="Pittsburgh, PA" place_code="WPRDC" %}
+{% include library-place.html place_name="Collections as Data" place_code="collection as data" %}
+{% include library-place.html place_name="Austin, TX (General)" place_code="Austin" %}
+{% include library-place.html place_name="Austin, TX (Homelessness)" place_code="Austin - Homelessness" %}
 
 
 
