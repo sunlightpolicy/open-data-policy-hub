@@ -2,9 +2,6 @@
   <section class="usa-section">
     <div class="usa-width-two-thirds">
       <h3>{{ include.place_name }}</h3>
-      {% assign place_info = site.data.personas_place_descrips | where: "place_code", include.place_code | first %}
-      {% assign place_desc = place_info | map: "place_desc" %}
-      {% assign place_link = place_info | map: "read_more_link" %}
       <p>{{ include.place_desc }}</p>
       {% for link in include.links %}
         <p>
