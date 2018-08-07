@@ -23,7 +23,11 @@
         {% assign place_personas = site.data.personas_list | where: "place", include.place_code %}
         {% for persona in place_personas %}
         {% capture name_string %}{% if persona.name %}{{ persona.name }}{% endif %}{% if persona.age %}, {{ persona.age }}{% endif %}{% endcapture %}
-        {% assign image_location = "/assets/img/personas/" | append: persona.image %}
+        {% if persona.image == "none" %}
+          {% assign image_location = "none" %}
+        {% else %}
+          {% assign image_location = "/assets/img/personas/" | append: persona.image %}
+        {% endif %}
         {% include card.html
           image_src=image_location
           image_alt=project.image_accessibility
