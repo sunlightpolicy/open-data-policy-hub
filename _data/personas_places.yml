@@ -90,3 +90,4 @@
     personas that pertain to open data needs regarding city contracting."
   links:
     Read more: https://docs.google.com/document/d/1CA8-Jf3_D8OOChMOBxK2mKfqrXNCkXfzIowD7fbPL_c/edit?usp=sharing
+  exclude: true
