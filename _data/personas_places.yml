@@ -74,10 +74,10 @@
     Read more: https://docs.google.com/presentation/d/10L4xOSTdVtgGXYF2edK_vSqWnfCOsUAD9AAcqRHblQ0/edit#slide=id.p
 
 - place_code: losangeles
-  place_name: "Los Angeles,CA"
   description: "The Mayor's office in the City of Los Angeles reviewed existing open data user personas from other cities 
   to create personas that represent their own residents. The office made sure to emphasize users with limited technical ability, 
   and the city is currently at work on a number of projects including an open data literacy program to make data more accessible 
+  place_name: "Los Angeles, CA"
   to this set of user personas."
   links:
     Read more: https://drive.google.com/file/d/1RzN6gN5lxJmKUt3eUN4wgrCAsrgyLD3d/view
