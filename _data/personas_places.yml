@@ -1,95 +1,92 @@
-- place_code: nyc
-  place_name: New York, NY
-  description: "The New York City Mayor’s Office of Data Analytics established Open
-    Data for All as an initiative to extend the open data portal to more residents.
-    They asked Reboot to find out who the current and potential users of open data
-    are. Reboot conducted research to design personas and identify a pipeline from
-    current to potential open data users so more people can be involved in community
-    problem solving."
+- place_code: newyork
+  place_name: "New York, NY"
+  description: "The New York City Mayor’s Office of Data Analytics helped to establish 
+  Open Data for All, a 2015 initiative to extend the open data portal to more residents. 
+  With this initiative in mind, the Office of Technology and Innovation asked civic design 
+  firm Reboot to find out who the current and potential users of open data are. Reboot then 
+  conducted research to design personas, which helped to identify a pipeline from current 
+  to potential open data users so more people can be involved in community problem solving."
   links:
-    Read more 1: https://opendata.cityofnewyork.us/wp-content/uploads/2017/07/Understanding-the-Users-of-Open-Data_Reboot.pdf
-    Read more 2: https://reboot.org/case-studies/user-centered-design-increasing-open-data-use/
+    Read more: https://opendata.cityofnewyork.us/wp-content/uploads/2017/07/Understanding-the-Users-of-Open-Data_Reboot.pdf
+    Read more: https://reboot.org/case-studies/user-centered-design-increasing-open-data-use/
 
 - place_code: madison
-  place_name: Madison, WI
-  description: "Sunlight conducted Tactical Data Engagement in Madison to help translate
-    community input on neighborhood development into action. Leveraging the work of
-    Imagine Madison, a community-driven planning project addressing neighborhood equity,
-    Sunlight worked with Reboot, to develop a set of user personas representing stakeholders
-    in Imagine Madison."
+  place_name: "Madison, WI"
+  description: "In November 2017, Sunlight's Open Cities team conducted Tactical Data Engagement 
+  in Madison to help translate community input on neighborhood development into action. Leveraging 
+  the work of Imagine Madison, a community-driven planning project addressing neighborhood equity, 
+  Sunlight worked with Reboot to develop a set of user personas representing stakeholders in Madison's 
+  neighborhoods."
   links:
-    Read more 1: http://sunlightfoundation.com/wp-content/uploads/2018/01/user-personas-and-journeys-madison-wi.pdf
-    Read more 2: https://sunlightfoundation.com/2018/01/31/how-open-data-can-support-equitable-and-complete-neighborhoods-in-madison-wi-our-third-pilot-of-tactical-data-engagement/
-    Read more 3: http://sunlightfoundation.com/wp-content/uploads/2018/01/activating-neighborhoods-in-madison-wi.pdf#page=16
+    Read more: http://sunlightfoundation.com/wp-content/uploads/2018/01/user-personas-and-journeys-madison-wi.pdf
+    Read more: https://sunlightfoundation.com/2018/01/31/how-open-data-can-support-equitable-and-complete-neighborhoods-in-madison-wi-our-third-pilot-of-tactical-data-engagement/
+    Read more: http://sunlightfoundation.com/wp-content/uploads/2018/01/activating-neighborhoods-in-madison-wi.pdf#page=16
 
-- place_code: morpc
-  place_name: Columbus, OH
-  description: "The Mid-Ohio Regional Planning Commission is a regional data intermediary that
-    collects and presents data from local agencies. Endeavoring to gauge user needs at the
-    regional level, they decided to develop a set of open data user personas. The personas
-    will help them determine a strategy to integrate user-centered design in their effort to
-    increase the impact of data mapping."
+- place_code: columbus
+  place_name: "Columbus, OH"
+  description: "The Mid-Ohio Regional Data Commission is a regional data intermediary that collects 
+  and presents data from local agencies. Endeavoring to gauge user needs at the regional level, they 
+  carried out an extensive research project that culminated in a set of open data user personas. The 
+  personas will help them determine a strategy to integrate user-centered design in their effort to 
+  increase the impact of data mapping. See below for a comprehensive report on their user research from 
+  December 2017."
   links:
-    Read more 1: https://drive.google.com/file/d/0B0VAjJ09KXQ3LTZEeGxTb1RBTlNvYzlEcjRValItR2gtLTVB/view?usp=sharing
+    Read more: https://drive.google.com/file/d/0B0VAjJ09KXQ3LTZEeGxTb1RBTlNvYzlEcjRValItR2gtLTVB/view?usp=sharing
 
-- place_code: wprdc
-  place_name: Pittsburgh, PA
-  description: "The Western Pennsylvania Regional Data Center (WPRDC), a data intermediary,
-    created a set of personas in a workshop to better understand the context and problems
-    of people that access the data they administer. WPRDC focused on understanding goals,
-    skills, and technical ability of data users based on their experience of interactions
-    with users. The result is a creative set of personas that helps WPRDC staff think about
-    the region’s data needs."
+- place_code: pittsburgh
+  place_name: "Pittsburgh, PA"
+  description: "The Western Pennsylvania Regional Data Center (WPRDC), a data intermediary, created 
+  a set of personas to better understand the context and problems of people that access the data 
+  they administer. WPRDC developed the personas during a workshop run by Collections as Data. WPRDC 
+  focused on understanding goals, skills, and technical ability of data users based on their 
+  experience of interactions with users. The result is a creative set of personas that helps WPRDC 
+  staff think about the region’s data needs."
   links:
-    Read more 1: https://docs.google.com/presentation/d/1zCpShjwHl8k-NCGCFHwruBd3xew1Wyh1NsIjKL6l3fY/edit#slide=id.p5
+    Read more: https://docs.google.com/presentation/d/1zCpShjwHl8k-NCGCFHwruBd3xew1Wyh1NsIjKL6l3fY/edit#slide=id.p5
 
 - place_code: collections
-  place_name: Collections as Data
-  description: "Collections as Data is a group represented by staff and researchers from libraries
-    and academic institutions. Through conferences and projects they develop resources to share
-    online library collections and make more data available to the public. The team created a
-    diverse set of personas with input from practitioners that work on open data in various contexts.
-    They also conducted a user personas workshop that brought together various experts from the fields
-    of civic technology and open data."
+  place_name: "Always Already Computational: Collections as Data"
+  description: "Always Already Computational: Collections as Data is a group led by librarians and archivists 
+  from academic institutions. Through conferences and projects they develop resources to support creating and 
+  providing access to machine actionable library, archive, and museum collections. The team ran a workshop at 
+  the 2017 DLF forum and interacted with a range of data users, producers, and stewards in order to develop a 
+  diverse set of personas."
   links:
-    Read more 1: https://collectionsasdata.github.io/personas/,https://drive.google.com/drive/folders/0B8ETyFnKCnQSNVRNeGpXMjl5bkk
+    Read more: https://collectionsasdata.github.io/personas/
+    Read more: https://forum2017.diglib.org/collections-data-workshop/
 
 - place_code: austin_general
-  place_name: Austin, TX (General)
-  description: "Austin’s Open Data Initiative developed personas of open data users to
-    help them in the process of retooling the open data portal to meet growing and changing
-    needs. The personas primarily represent city staff in relation to open data. One of the
-    outcomes of this project was to create standard requirements for open data sets that allows
-    for ongoing evaluation."
+  place_name: "Austin, TX (General)"
+  description: "Austin’s Open Data Initiative developed personas based on open data users in 2016 during 
+  an “open data sprint” to help them in the process of retooling the open data portal to meet growing and 
+  changing needs. One of the outcomes of this project was to create standard requirements for open data 
+  sets that allow for ongoing evaluation."
   links:
-    Read more 1: http://open-data-sprints.readthedocs.io/en/latest/project-product-evals.html
+    Read more: http://open-data-sprints.readthedocs.io/en/latest/project-product-evals.html
 
 - place_code: austin_homelessness
-  place_name: Austin, TX (Homelessness)
-  description: "Austin’s city council identified ending homelessness as a priority. The
-    Sunlight Foundation worked with Austin’s innovation team to identify ways to use data
-    and community insights to drive housing placement for currently existing city programs.
-    After conducting user discovery, Sunlight helped the innovation team to develop user
-    personas pertaining to the housing and homelessness sector."
+  place_name: "Austin, TX (Homelessness)"
+  description: "Austin’s city council identified ending homelessness as a priority. The Sunlight Foundation worked with 
+  Austin’s innovation team to identify ways to use data and community insights to drive housing placement for currently 
+  existing city programs. After conducting user discovery, Sunlight helped the innovation team to develop user personas 
+  pertaining to the housing and homelessness sector."
   links:
-    Read more 1: https://docs.google.com/presentation/d/10L4xOSTdVtgGXYF2edK_vSqWnfCOsUAD9AAcqRHblQ0/edit#slide=id.p
+    Read more: https://docs.google.com/presentation/d/10L4xOSTdVtgGXYF2edK_vSqWnfCOsUAD9AAcqRHblQ0/edit#slide=id.p
 
 - place_code: losangeles
-  place_name: Los Angeles, CA
-  description: "The Los Angeles Mayor’s office reviewed existing open data user personas
-    from other cities to create personas that represent their own residents, making sure
-    to emphasize users with limited technical ability. The city is currently at work on a
-    number of projects to make data more accessible to residents that have the roles and
-    experience of the city’s set of user personas."
+  place_name: "Los Angeles,CA"
+  description: "The Mayor's office in the City of Los Angeles reviewed existing open data user personas from other cities 
+  to create personas that represent their own residents. The office made sure to emphasize users with limited technical ability, 
+  and the city is currently at work on a number of projects including an open data literacy program to make data more accessible 
+  to this set of user personas."
   links:
-    Read more 1: https://drive.google.com/file/d/1RzN6gN5lxJmKUt3eUN4wgrCAsrgyLD3d/view
+    Read more: https://drive.google.com/file/d/1RzN6gN5lxJmKUt3eUN4wgrCAsrgyLD3d/view
 
 - place_code: glendale
-  place_name: Glendale, AZ
+  place_name: "Glendale, AZ"
   description: "The Sunlight Foundation conducted Tactical Data Engagement in Glendale,
-    Arizona to help them increase transparency in procurement processes. Sunlight’s Open
+    Arizona to help them increase transparency in procurement processes. Sunlight's Open
     Cities team engaged relevant stakeholders, and synthesized insights into several user
     personas that pertain to open data needs regarding city contracting."
   links:
-    Read more 1: https://docs.google.com/document/d/1CA8-Jf3_D8OOChMOBxK2mKfqrXNCkXfzIowD7fbPL_c/edit?usp=sharing
-  exclude: true
+    Read more: https://docs.google.com/document/d/1CA8-Jf3_D8OOChMOBxK2mKfqrXNCkXfzIowD7fbPL_c/edit?usp=sharing
