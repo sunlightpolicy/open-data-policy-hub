@@ -27,8 +27,10 @@
       {% if include.agency %}
         <p class="card-tag">{{ include.agency }}</p>
       {% endif %}
-      {% if card_link and include.tagline %}
-        <a href="{{ card_link }}" tabindex="-1" class="card-link-tagline"><h3 class="h4">{{ include.tagline }}</h3></a>
+      {% if include.link and include.tagline %}
+        <a href="{{ include.link }}" tabindex="-1" class="card-link-tagline"><h3 class="h4">{{ include.tagline }}</h3></a>
+      {% elsif include.tagline %}
+        <h3 class="h4">{{ include.tagline }}</h3>
       {% endif %}
       <p class="card-description">{{ include.description }}</p>
     </div>
