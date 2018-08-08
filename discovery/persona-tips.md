@@ -4,6 +4,7 @@ permalink: /persona-tips/
 layout: primary
 lead: Use this guide to compile ethnographic observations into a format that allows designers to relate to users at a glance.
 banner_cta: true
+include_subnav: true
 subnav_items:
   - text: 'Background'
     permalink: /persona-tips/#background
