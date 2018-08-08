@@ -83,11 +83,11 @@
     Read more: https://drive.google.com/file/d/1RzN6gN5lxJmKUt3eUN4wgrCAsrgyLD3d/view
 
 - place_code: glendale
-  place_name: "Glendale, AZ"
+  place_name: "Glendale, AZ (Development Services)"
   description: "The Sunlight Foundation conducted Tactical Data Engagement in Glendale,
     Arizona to help them increase transparency in procurement processes. Sunlight's Open
     Cities team engaged relevant stakeholders, and synthesized insights into several user
     personas that pertain to open data needs regarding city contracting."
   links:
     Read more: https://docs.google.com/document/d/1CA8-Jf3_D8OOChMOBxK2mKfqrXNCkXfzIowD7fbPL_c/edit?usp=sharing
-  exclude: true
+  exclude: false
