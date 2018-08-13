@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% if page.examples.size > 0 %}
+    <h2>Further reading:</h2>
+    <ul>
+    {% for example in page.examples %}
+        <li><a href="{{ example.url }}">{{ example.title }}</a></li>
+    {% endfor %}
+    </ul>
+{% endif %}
+
+<h2>Examples of language for this guideline:</h2>
+
+Here are examples of the language for this guideline as included in policies on this site. Please note that the selections of text below are imperfect, and you should check out their source policies to read them in context.
+
+<div id="sample-language">
+</div>
+
+<script type="text/javascript">
+var div = document.getElementById('sample-language');
+var guideline_id = '{{ page.id }}'.replace(/\/guidelines\/\d\d-/g, '');
+{% for doc in site.documents %}
+    var doc_raw = "{{ doc.content | replace: '"', '\"' | strip_newlines }}";
+    var doc_replaced = doc_raw || '<p></p>';
+    var doc_html = $('<div></div>');
+    doc_html.html(doc_replaced);
+    if (doc_html.length) {
+        var spans = doc_html.find('span.g-' + guideline_id);
+        if (spans.length) {
+            var doc_id = '{{ doc.id }}'.replace(/\/doc\//g, '');
+            var content = $('<div class="g-example" id=' + doc_id + '></div>');
+            {% capture doc_name %}{% include docname.html doc_page=doc %}{% endcapture %}
+            $(content).append('\n<h3>{{ doc_name | escape | strip_newlines }}</h3>');
+
+            for (var i = 0; i < spans.length; i++) {
+                $(content).append('\n<p>' + $.trim(spans[i].innerText) + '</p>');
+            }
+            $(content).append('\n<p><a href="{{ site.baseurl }}{{ doc.url }}?' +
+                guideline_id + '">See this text in context »</a></p>');
+            $(div).append(content);
+        }
+    } else {
+        console.log('no_length');
+    }
+{% endfor %}
+</script>

@@ -1,0 +1,156 @@
+---
+layout: primary
+title: ''
+---
+
+<script type="text/javascript">
+  function updateUrl() {
+    var selection = $('select#select-guideline').val();
+    location.search = selection;
+  }
+</script>
+
+<!-- Original policy -->
+{% if page.policy_url %}
+  <p><a href="{{ page.policy_url }}">View original policy</a></p>
+{% endif %}
+{% if page.policy_urls %}
+  {% if page.policy_urls.size > 1 %}
+    <p>View original policy:
+    {% for policy in page.policy_urls %}
+      {% if forloop.first == false %}
+        ,
+      {% endif %}
+      <a href="{{ policy[1] }}">{{ policy[0] }}</a>
+    {% endfor %}
+    </p>
+  {% else %}
+    {% assign the_policy = page.policy_urls | first %}
+    <p><a href="{{ the_policy[1] }}">View original policy ({{ the_policy[0] }})</a></p>
+  {% endif %}
+{% endif %}
+
+<!-- Press release -->
+{% if page.press_url %}
+  <p><a href="{{ page.press_url }}">View press release</a></p>
+{% endif %}
+
+<!-- Data portal(s) -->
+{% assign the_place = site.places | where: "place", page.place | first %}
+{% if the_place.portal_urls %}
+  {% if the_place.portal_urls.size > 1 %}
+    <p>View data portals:
+    {% for portal in the_place.portal_urls %}
+      {% if forloop.first == false %}
+        ,
+      {% endif %}
+      <a href="{{ portal[1] }}">{{ portal[0] }}</a>
+    {% endfor %}
+    </p>
+  {% else %}
+    {% assign the_portal = the_place.portal_urls | first %}
+    <p><a href="{{ the_portal[1] }}">View data portal</a></p>
+  {% endif %}
+{% endif %}
+
+<!-- Sunlight and WWC status -->
+{% assign sunlight_assist_types = 'wwc,nonwwc,prewwc' | split: ',' %}
+{% if sunlight_assist_types contains page.sunlight %}
+  <p><a href="https://sunlightfoundation.com/policy/open-cities/">Sunlight</a> provided assistance with the development of this policy.</p>
+{% endif %}
+{% if the_place.wwc %}
+  <p>This city is part of the <a href="https://whatworkscities.bloomberg.org/">What Works Cities</a> program.</p>
+{% endif %}
+
+<!-- Select Open Data Policy Guideline to view highlighted -->
+{% if content contains '<span class="g-' %}
+<br>
+<div id="select-guideline">
+  <p>Highlight text matching an <a href="/guidelines/">Open Data Policy Guideline</a>:</p>
+  <select id="select-guideline" onchange="updateUrl()">
+    <option selected disabled>Select a guideline...</option>
+    <!-- We'll use JavaScript to add more options based on which guidelines this policy meets -->
+  </select>
+  <p id="guideline-see-more"></p>
+</div>
+{% endif %}
+
+<!-- Main section -->
+<br>
+<hr>
+{% if page.note %}
+  <p><em>Note: {{ page.note }}</em></p>
+  <hr>
+{% endif %}
+<br>
+{% if page.no_text == true %}
+  <p><em>We do not have an HTML version of this policy available, but you can still access the text using the &ldquo;View original policy&rdquo; link above.</em></p>
+{% else %}
+  {{ content }}
+{% endif %}
+<br>
+<hr>
+<p>
+  <em>Do you see anything that looks wrong? Please let us know! <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic/issues">Open a GitHub issue</a> or <a href="mailto:opendatadecoded@gmail.com">send us an email</a>.</em>
+</p>
+<hr>
+<br>
+
+<!-- Comments -->
+{% if site.disqus_shortname %}
+  {% include disqus_comments.html %}
+{% endif %}
+
+
+<!-- Compile a hash containing guideline names, numbers, and ids (key = id) -->
+<script type="text/javascript">
+  var guideline_names = {};
+  {% for guideline in site.guidelines %}
+    var g_id = '{{ guideline.id }}'.replace(/\/guidelines\/\d\d-/g, '');
+    guideline_names[g_id] = {
+      'id': g_id,
+      'number': {{ guideline.number }},
+      'prettyname': '{{ guideline.number }}. {{ guideline.name }}',
+      'url': '{{ guideline.url }}'
+    };
+  {% endfor %}
+</script>
+
+<!-- If URL parameter: highlight matching text, set drop-down selection, link to guideline -->
+<script type="text/javascript">
+  var guideline_id = location.search.replace('?', '');
+  if (guideline_id !== '') {
+    $('span.g-' + guideline_id).css('background-color', '#FFFF00');
+    $('p#guideline-see-more').html('<a href="' +
+      guideline_names[guideline_id].url + '">Read more about this guideline »</a>');
+    $(function() {
+      $('select#select-guideline').val(guideline_id);
+    });
+  }
+</script>
+
+<!-- Create drop-down menu with guidelines in this policy -->
+<script type="text/javascript">
+
+  // Define function to keep only unique elements of a list
+  Array.prototype.uniq = function(){
+    return this.filter(
+        function(a){return !this[a] ? this[a] = true : false;}, {}
+    );
+  }
+
+  // Find unique guidelines in this policy
+  var g_ids = $('span')
+    .filter(function(s) { return this.className.startsWith('g-'); })
+    .map(function (s) { return this.className.replace('g-', ''); })
+    .toArray();
+  var g_list = g_ids.uniq()
+    .map(function (g_id) { return guideline_names[g_id]; })
+    .sort(function (a, b) { return a.number - b.number; });
+
+  // Add this document's guidelines as options in the drop-down menu
+  for (var i = 0; i < g_list.length; i++) {
+    var option = new Option(g_list[i].prettyname, g_list[i].id);
+    $('select#select-guideline').append($(option));
+  }
+</script>

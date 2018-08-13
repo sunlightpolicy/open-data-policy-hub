@@ -1,0 +1,15 @@
+---
+layout: primary
+---
+
+{% for place in site.places %}
+    {% if place.states contains page.state_code %}
+        <h3>{{ place.title }}</h3>
+        <ul>
+        {% assign place_docs = site.policies | where: "place", place.place %}
+        {% for doc in place_docs %}
+            <li><a href="{{ doc.url }}">{% include placedoc.html doc_page=doc %}</a></li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+{% endfor %}

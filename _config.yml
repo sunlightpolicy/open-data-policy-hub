@@ -1,6 +1,6 @@
 # Site settings
-title: "Open data for communities"
-description: "An incredible sentence about open data, local communities, and user-centered design."
+title: "Open Data Policy Hub"
+description: "Learn how to write your own open data policy, and see existing ones."
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: pretty
 # url: "https://18f.gsa.gov" # the base hostname & protocol for your sites
@@ -10,10 +10,9 @@ env: "production"
 logo: /assets/img/logos/sunlight-logo-dark.png
 tag_dir: tags
 github_repo: https://github.com/sunlightpolicy/open-data-for-communities/blob/master
-baseurl: "/open-data-for-communities"
+baseurl: ""
 
 related_posts: 3
-
 
 analytics:
   google:
@@ -34,6 +33,18 @@ jekyll-archives:
     tag: '/tags/:name/'
 
 collections:
+  policies:
+    output: true
+    permalink: /policy/:path/
+  states:
+    output: true
+    permalink: /state/:path/
+  places:
+    output: false
+    permalink: /place/:path/
+  guidelines:
+    output: true
+    permalink: /guidelines/:path/
   philosophy:
     output: true
     permalink: /:path/
@@ -66,75 +77,31 @@ collections:
     permalink: /styleguide/:path/
 
 defaults:
- -
-  scope:
-    type: "posts" # an empty string here means all files in the project
-  values:
-    layout: post
- -
-  scope:
-    path: "pages"
-  values:
-    layout: primary
- -
-  scope:
-    path: "_authors"
-  values:
-    layout: default-profile
- -
-  scope:
-    path: "_contact"
-  values:
-    layout: primary
-    # include_subnav: true
-    subnav_anchor: /contact/
- -
-  scope:
-    path: "_philosophy"
-  values:
-    layout: primary
-    include_subnav: true
-    subnav_anchor: /philosophy/
- -
-  scope:
-    path: "_code_of_conduct"
-  values:
-    layout: primary
-    include_subnav: true
-    subnav_anchor: /code-of-conduct/
- -
-  scope:
-    path: "_principles"
-  values:
-    layout: primary
-    include_subnav: true
-    subnav_anchor: /partnership-principles/
- -
-  scope:
-    path: "_join"
-  values:
-    layout: primary
-    include_subnav: true
-    subnav_anchor: /join/
-    parent_title: Join 18F
-    parent_permalink: /join/
- -
-  scope:
-    path: "_products_projects"
-  values:
-    layout: project-page
- -
-  scope:
-    path: "_services_projects"
-  values:
-    layout: project-page
-
- -
-  scope:
-    path: "_styleguide"
-  values:
-    layout: styleguide
-    include_subnav: true
+  - scope:
+      path: ""
+      type: policies
+    values:
+      layout: policy
+      comments: true
+      sunlight: nil
+  - scope:
+      path: ""
+      type: states
+    values:
+      layout: state
+  - scope:
+      path: ""
+      type: places
+    values:
+      layout: default
+      type: local
+      no_text: false
+      wwc: nil
+  - scope:
+      path: ""
+      type: guidelines
+    values:
+      layout: guideline
 
 frontmatter_tests:
   path: "tests/schema"

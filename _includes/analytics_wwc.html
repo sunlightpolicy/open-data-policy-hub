@@ -1,0 +1,15 @@
+<div class="total">
+    <p><span class="num-places">{{ include.wwc_docs | map: "place" | uniq | size }}</span> unique places, with <span class="num-policies">{{ include.wwc_docs | size }}</span> total policies</p>
+    <p>Of these...</p>
+</div>
+
+<h3><em>Policies that Sunlight provided assistance with</em></h3>
+{% include analytics_sunlight.html wwc_docs=include.wwc_docs sunlight='true' %}
+
+<h3><em>Policies that Sunlight did not provide assistance with</em></h3>
+{% include analytics_sunlight.html wwc_docs=include.wwc_docs sunlight='false' %}
+
+<h3><em>Policies whose Sunlight status is unknown</em></h3>
+{% include analytics_sunlight.html wwc_docs=include.wwc_docs sunlight='unknown' %}
+
+<br>

@@ -1,26 +1,22 @@
 navbar:
-- text: Discovery methods
-  permalink: /discovery/
-  multiple_permalinks:
-    - /discovery/:path/
-- text: Action methods
-  permalink: /action/
-- text: Philosophy
-  permalink: /philosophy/
-- text: Contact
-  permalink: /contact/
+- text: Checklist
+  permalink: /checklist/
+- text: Guidelines
+  permalink: /guidelines/
+- text: Collection
+  permalink: /collection/
+- text: Generator
+  permalink: /generator/
 
 drawer:
-  - text: Discovery methods
-    permalink: /discovery/
-    multiple_permalinks:
-    - /discovery/:path/
-  - text: Action methods
-    permalink: /action/
-  - text: Philosophy
-    permalink: /philosophy/
-  - text: Contact
-    permalink: /contact/
+- text: Checklist
+  permalink: /checklist/
+- text: Guidelines
+  permalink: /guidelines/
+- text: Collection
+  permalink: /collection/
+- text: Generator
+  permalink: /generator/
 
 footer:
   - text: Discovery
