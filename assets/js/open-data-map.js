@@ -83,7 +83,8 @@ function show_map(data) {
   // on the map. The coordinates are flipped because of translation from lat/lng to x/y coordinates.
   for (var i = 0; i < locations.length; i++) {
     // determine which icon to use based on property in geoJSON using ternary operator (shorthand if/else)
-    var icon = locations[i]['properties']['wwc'] ? wwcIcon : odpIcon;
+    //var icon = locations[i]['properties']['wwc'] ? wwcIcon : odpIcon;
+    var icon = odpIcon;
     // get coordinates of location.
     var coords = locations[i]['geometry']['coordinates'];
     // var mapPinDate = "<time class=\"leaflet-map-date\" datatime=\"" + locations[i]['properties']['Date'] + "\">" + locations[i]['properties']['Date'] + "</time>";
