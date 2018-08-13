@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: primary
 ---
 
 {{ content }}
@@ -23,7 +23,7 @@ Here are examples of the language for this guideline as included in policies on 
 <script type="text/javascript">
 var div = document.getElementById('sample-language');
 var guideline_id = '{{ page.id }}'.replace(/\/guidelines\/\d\d-/g, '');
-{% for doc in site.documents %}
+{% for doc in site.policies %}
     var doc_raw = "{{ doc.content | replace: '"', '\"' | strip_newlines }}";
     var doc_replaced = doc_raw || '<p></p>';
     var doc_html = $('<div></div>');
