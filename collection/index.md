@@ -1,6 +1,6 @@
 ---
 layout: primary
-title: Browse our collection of open-data policies
+title: Open Data Policy Collection (or Library)
 content_wide: true
 ---
 
