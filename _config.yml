@@ -135,7 +135,6 @@ exclude:
 - docker_entrypoint.rb
 - Dockerfile
 - examples/
-- favicon.ico
 - Gemfile*
 - ISSUE_TEMPLATE.md
 - killport
