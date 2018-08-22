@@ -102,6 +102,11 @@ title: ''
 {% endif %}
 
 
+<!-- Create table of contents -->
+{% if show_table_of_contents %}
+<script src="{{ site.baseurl }}/assets/js/create-toc-from-headings.js"></script>
+{% endif %}
+
 <!-- Compile a hash containing guideline names, numbers, and ids (key = id) -->
 <script type="text/javascript">
   var guideline_names = {};
