@@ -16,7 +16,7 @@ The provisions are not ranked in order of priority and do not address every ques
   {% assign section_guidelines = site.guidelines | where: "section", section[0] %}
   <ul>
   {% for guideline in section_guidelines %}
-    <li><a href="{{ guideline.url }}">({{ guideline.number }}) {{ guideline.name }}</a></li>
+    <li><a href="{{ site.baseurl }}/{{ guideline.url }}">({{ guideline.number }}) {{ guideline.name }}</a></li>
   {% endfor %}
   </ul>
 {% endfor %}
