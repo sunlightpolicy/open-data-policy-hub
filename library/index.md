@@ -15,6 +15,6 @@ You can also [browse by state](/browse/states/) or see a list of all the policie
 
 See our list of [Open Data Policy Guidelines](/guidelines/) and what text from different policies matches those guidelines.
 
-Do you know of an open-data policy that's not listed here? [Let us know here](/add-a-policy/)!
+Do you know of an open data policy that's not listed here? [Let us know here](/add-a-policy/)!
 
-Are you interested in writing your own open-data policy? Check out some of our resources [here](http://whatworkscities.sunlightfoundation.com/#section-h2-05).
+Are you interested in writing your own open data policy? Check out some of our resources [here](http://whatworkscities.sunlightfoundation.com/#section-h2-05).

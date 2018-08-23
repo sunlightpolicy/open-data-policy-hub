@@ -5,7 +5,7 @@ title: Browse by state
 
 {% include base.html %}
 
-Browse the open-data policies listed by state:
+Browse the open data policies listed by state:
 
 <ul>
 {% for state in site.states %}

@@ -1,11 +1,11 @@
 ---
 layout: primary
-title: Browse open-data policies by date
+title: Browse open data policies by date
 ---
 
 {% include base.html %}
 
-These are all the open-data policies we have on this site, listed from oldest to newest:
+These are all the open data policies we have on this site, listed from oldest to newest:
 <br>
 {% assign docs_by_year = site.policies | group_by: "year" %}
 {% for year in docs_by_year %}
