@@ -1,0 +1,16 @@
+{% assign action = include.action | default: 'Read more' %}
+
+<li class="post usa-width-one-half usa-width-tablet">
+  <article>
+    <h3 class="h4 posts_feature-heading">
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ include.name }}</a>
+    </h3>
+    <p class="post-excerpt">{{ include.description }}</p>
+    <p>
+      <a class="link-arrow-right post-link-continue_reading" href="{{ include.url | prepend: site.baseurl }}">
+        {{ action }}
+        {% include svg/icons/arrow-right.svg %}
+      </a>
+    </p>
+  </article>
+</li>

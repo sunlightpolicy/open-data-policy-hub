@@ -1,0 +1,9 @@
+// Custom rules for this site. In general, the goal is to not have ad-hoc rules like this, but it's being done here to avoid messing with the intricately complicated style rules that come with the site. This is only for the featured-resources section of the home page.
+
+section#featured-resources ul li:nth-child(even) {
+    margin-right: 0;
+}
+
+section#featured-resources ul li {
+    margin-bottom: 4rem;
+}

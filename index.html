@@ -10,6 +10,7 @@ redirect_from: /dashboard/
     <div class="usa-grid">
       <div class="hero-callout hero-callout-primary background-dark usa-width-one-third usa-width-tablet">
         <h2>Open Data Policy Hub</h2>
+        <h3>Your one-stop-shop for learning how to write an open data policy.</h3>
         <!-- <a href="{{ site.baseurl }}/contact/" tabindex="-1"><button class="usa-button usa-button-big usa-button-secondary">Get in touch</button></a> -->
       </div>
     </div>
@@ -26,84 +27,39 @@ redirect_from: /dashboard/
 </section> -->
 
 <section class="usa-section usa-grid">
-  <h2>Some great text</h2>
-  <section>
-    <section class="usa-width-one-half usa-width-short-one">
-      <h3 class="p-line-height p-normal pad-bottom-mobile">This entire home page is going to change!</h3>
+  <!-- <h2>Some great text</h2> -->
+    <section class="usa-width-two-thirds usa-width-short-one">
+      <h3 class="p-line-height p-normal pad-bottom-mobile">Looking to write an open data policy but don't know where to start? Here are four key resources to help you out!</h3>
     </section>
-    <aside class="usa-width-one-half usa-width-shift-one">
-      <h4 class="break-bottom-small">Our stuff is great because:</h4>
-      <div class="icon-list">
-        <figure class="icon-list-image">{% include svg/icons/monitor.svg %}</figure>
-        <div class="icon-list-text">
-          <p class="p-bold">Open data and information are really great things for the public to have</p>
-        </div>
-      </div>
-      <div class="icon-list">
-        <figure class="icon-list-image">{% include svg/icons/user-centered-icon.svg %}</figure>
-        <div class="icon-list-text">
-          <p class="p-bold">Put humans first by embracing principles of user-centered design</p>
-        </div>
-      </div>
-      <div class="icon-list">
-        <figure class="icon-list-image">{% include svg/icons/agile-icon.svg %}</figure>
-        <div class="icon-list-text">
-          <p class="p-bold">Use tactical and iterative interventions</p>
-        </div>
-      </div>
-    </aside>
-  </section>
 </section>
 
-<section class="usa-section background-gray">
-  <section class="usa-grid">
-    <h2>Can have these type of things if we want</h2>
-    {% include card.html
-       image_src="/assets/img/home/hero-fec.png"
-       image_alt=project.image_accessibility
-       image_icon=project.image_icon
-       agency="Fusce maximus ipsum"
-       tagline="Pellentesque rhoncus lacus a massa bibendum"
-       description="Praesent elementum malesuada ante ac bibendum. In condimentum non mauris quis vestibulum."
-       link=project.permalink
-       columns=3
+<section class="usa-grid usa-section posts_feature" id="featured-resources">
+  <!-- <h2><a href="{{ site.baseurl }}/blog/">Resources:</a></h2> -->
+  <ul>
+    {% include resource-preview.html
+       name="Open Data Policy Checklist"
+       description="Get started with our step-by-step guide to creating an open data policy. We’ll guide you through setting objectives, drafting language, collecting feedback, implementing the policy, and promoting the policy."
+       action="Go through the steps"
+       url="checklist"
     %}
-    {% include card.html
-       image_src="/assets/img/projects/data-act-better-data.jpg"
-       image_alt=project.image_accessibility
-       image_icon=project.image_icon
-       agency="Fusce maximus ipsum"
-       tagline="Pellentesque rhoncus lacus a massa bibendum"
-       description="Praesent elementum malesuada ante ac bibendum. In condimentum non mauris quis vestibulum."
-       link=project.permalink
-       columns=3
+    {% include resource-preview.html
+       name="Open Data Policy Generator"
+       description="Ready to start writing? Answer a few quick questions and we’ll send you a customized Google Doc with sample language for you to work off of, using our sample policy that incorporates all of our best practices."
+       action="Create a policy"
+       url="generator"
     %}
-    {% include card.html
-       image_src="/assets/img/projects/calc.png"
-       image_alt=project.image_accessibility
-       image_icon=project.image_icon
-       agency="Fusce maximus ipsum"
-       tagline="Pellentesque rhoncus lacus a massa bibendum"
-       description="Praesent elementum malesuada ante ac bibendum. In condimentum non mauris quis vestibulum."
-       link=project.permalink
-       columns=3
+    {% include resource-preview.html
+       name="Open Data Policy Guidelines"
+       description="We have developed a list of 31 best practices for robust open data policies, covering what data should be public, how to make data public, and how to implement policy."
+       action="See the guidelines"
+       url="guidelines"
     %}
-    <!-- {% include card-project.html
-       project='fec-gov'
+    {% include resource-preview.html
+       name="Open Data Policy Library"
+       description="Want to get a sense of what’s out there already? We’ve assembled a collection of over 100 open data policies from around the country."
+       action="Check out existing policies"
+       url="library"
     %}
-    {% include card-project.html
-       project='treasury-data-act'
-    %}
-
-    {% include card-project.html
-       project='calc'
-    %} -->
-  </section>
-</section>
-
-<!-- <section class="usa-grid usa-section posts_feature">
-  <h2><a href="{{ site.baseurl }}/blog/">Recent blog posts</a></h2>
-  <ul> -->
     <!-- {% for post in site.posts limit:3 %}
       {% include post.html
          post_date=post.date
@@ -159,7 +115,7 @@ redirect_from: /dashboard/
           </a>
         </p>
       </article>
-    </li>
+    </li> -->
 
   </ul>
-</section> -->
+</section>
