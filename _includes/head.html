@@ -28,8 +28,17 @@
 
 <!-- Creator -->
 <meta name="twitter:creator" content="@SunlightCities">
+
 <!-- Title -->
-{% if page.title %}
+{% if page.layout == 'policy' %}
+  {% capture the_title %}{% include docname.html doc_page=page %}{% endcapture %}
+  <meta name="title" content="{{ site.title }} | {{the_title}}">
+  <title>{{ site.title }} | {{ the_title }}</title>
+{% elsif page.layout == 'guideline' %}
+  {% capture the_title %}{{ page.number }}. {{ page.name }}{% endcapture %}
+  <meta name="title" content="{{ site.title }} | {{the_title}}">
+  <title>{{ site.title }} | {{ the_title }}</title>
+{% elsif page.title %}
   <title>{{ site.title }} | {{ page.title }}</title>
   <meta property="og:title" content="{{ site.title | xml_escape }} | {{ page.title | xml_escape }}" />
   <meta name="twitter:title" content="{{ site.title | xml_escape }} | {{ page.title | xml_escape }}">
