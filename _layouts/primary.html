@@ -29,22 +29,24 @@ layout: default
 %}
 {% endif %}
 
-<section class="{% unless page.gridless %}usa-grid usa-section {% endunless %}{% unless page.content_focus == false %} content-focus {% endunless %}{% if page.content_wide %} content-wide{% endif %} {% if page.include_subnav %} content-wide{% endif %}">
+<section class="{% unless page.gridless %}usa-grid usa-section {% endunless %}{% unless page.content_focus == false %} content-focus {% endunless %}{% if page.content_wide %} content-wide{% endif %} {% if page.include_subnav %} content-wide{% endif %}" id="main-container">
   {% if page.include_subnav %}
     <aside class="usa-width-one-third sticky sticky-subnav">
       {% include navigation.html subnav=true %}
     </aside>
-    <section class="usa-width-two-thirds">
+    <section class="usa-width-two-thirds" id="main-column">
       {% if page.image and page.lead %}
         <h3 class="page-lead">{{ page.lead }}</h3>
       {% endif %}
       {{ content }}
     </section>
   {% else %}
+    <section id="main-column">
     {% if page.image and page.lead %}
       <h3 class="page-lead">{{ page.lead }}</h3>
     {% endif %}
     {{ content }}
+    </section>
   {% endif %}
 </section>
 
