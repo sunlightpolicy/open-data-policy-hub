@@ -7,6 +7,8 @@ navbar:
   permalink: /guidelines/
 - text: Library
   permalink: /library/
+- text: Open Data 101
+  permalink: /open-data-101/
 
 drawer:
 - text: Checklist
@@ -17,6 +19,8 @@ drawer:
   permalink: /guidelines/
 - text: Library
   permalink: /library/
+- text: Open Data 101
+  permalink: /open-data-101/
 
 footer:
   - text: Discovery
