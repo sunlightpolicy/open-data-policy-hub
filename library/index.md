@@ -11,9 +11,9 @@ content_wide: true
 
 <!-- *Red markers indicate [What Works Cities](https://whatworkscities.bloomberg.org/cities/).* -->
 
-You can also [browse by state](/browse/states/) or see a list of all the policies [alphabetically](/browse/all/) or [by date](/browse/by-date/).
+You can also [browse by state](states/) or see a list of all the policies [alphabetically](all/) or [by date](by-date/).
 
-See our list of [Open Data Policy Guidelines](/guidelines/) and what text from different policies matches those guidelines.
+See our list of [Open Data Policy Guidelines]({{ site.baseurl }}/guidelines/) and what text from different policies matches those guidelines.
 
 Do you know of an open data policy that's not listed here? [Let us know here](/add-a-policy/)!
 
