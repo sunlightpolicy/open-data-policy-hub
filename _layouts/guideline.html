@@ -15,7 +15,8 @@ layout: primary
 
 <h2>Examples of language for this guideline:</h2>
 
-Here are examples of the language for this guideline as included in policies on this site. Please note that the selections of text below are imperfect, and you should check out their source policies to read them in context.
+<p>Here are examples of the language for this guideline as included in policies on this site. Please note that the selections of text below are imperfect, and you should check out their source policies to read them in context.</p>
+<br>
 
 <div id="sample-language">
 </div>
@@ -37,10 +38,10 @@ var guideline_id = '{{ page.id }}'.replace(/\/guidelines\/\d\d-/g, '');
             $(content).append('\n<h3>{{ doc_name | escape | strip_newlines }}</h3>');
 
             for (var i = 0; i < spans.length; i++) {
-                $(content).append('\n<p>' + $.trim(spans[i].innerText) + '</p>');
+                $(content).append('\n<blockquote>' + $.trim(spans[i].innerText) + '</blockquote>');
             }
             $(content).append('\n<p><a href="{{ site.baseurl }}{{ doc.url }}?' +
-                guideline_id + '">See this text in context »</a></p>');
+                guideline_id + '">See this text in context »</a></p><br><br>');
             $(div).append(content);
         }
     } else {
