@@ -23,7 +23,13 @@ Learn more about Sunlight’s approach to context and strategy below:
 
 ### Resources:
 
-<div class="funfact-blockquote">
+<p><a href="https://docs.google.com/document/d/1-BzDPwrquZVCY1NMMv2khzagjp7NMOGvcjIt5aNfhi4/edit#heading=h.70ahsimeeom" class="link-arrow-right">Developing an Open Data Policy Framework in Context {% include svg/icons/arrow-right.svg %}</a></p>
+
+<p><a href="https://docs.google.com/document/d/1xKvUNM4aIeDmzvY8aODjkrsS0HTRo9VaacGQtlsJBTA/edit" class="link-arrow-right">Common Municipal Governance Structures {% include svg/icons/arrow-right.svg %}</a></p>
+
+<p><a href="" class="link-arrow-right">[Add Alena’s research once it’s out] {% include svg/icons/arrow-right.svg %}</a></p>
+
+<!-- <div class="funfact-blockquote">
   <div class="small-caps">Resources:</div>
     <ul>
       <li><a href="https://docs.google.com/document/d/1-BzDPwrquZVCY1NMMv2khzagjp7NMOGvcjIt5aNfhi4/edit#heading=h.70ahsimeeom">Developing an Open Data Policy Framework in Context</a></li>
@@ -31,7 +37,7 @@ Learn more about Sunlight’s approach to context and strategy below:
       <li><a href="">[Add Alena’s research once it’s out]</a></li>
     </ul>
   </div>
-</div>
+</div> -->
 
 ## 2. Setting policy objectives for broad appeal
 
@@ -50,8 +56,20 @@ Setting and circulating expectations for open data policy will not only help pri
 A working statement of policy goals can and should be revised and updated as additional feedback is received throughout the process of crafting open data policy. Ultimately, the refined objectives now [building upon the shared values of the broader community](http://sunlightfoundation.com/opendataguidelines/#goals-and-values) should be represented [in the policy itself](https://www.flickr.com/photos/sunlightfoundation/sets/72157632913192963).
 
 ### Resources:
-- [Examples of 'Whereas' clauses in open data policies](https://docs.google.com/spreadsheets/d/1ySe2asRlhqqHCpDoc4Zp5qINuo-9iHeq2SdgYzB4B7Q/edit#gid=0)
-- [Sample policies using clear objectives](https://www.flickr.com/photos/sunlightfoundation/sets/72157632913192963)
+
+{% include card.html
+ image_src="none"
+ tagline="Examples of 'Whereas' clauses in open data policies"
+ link="https://docs.google.com/spreadsheets/d/1ySe2asRlhqqHCpDoc4Zp5qINuo-9iHeq2SdgYzB4B7Q/edit#gid=0"
+%}
+{% include card.html
+ image_src="none"
+ tagline="Sample policies using clear objectives"
+ link="https://www.flickr.com/photos/sunlightfoundation/sets/72157632913192963"
+%}
+
+<!-- - [Examples of 'Whereas' clauses in open data policies](https://docs.google.com/spreadsheets/d/1ySe2asRlhqqHCpDoc4Zp5qINuo-9iHeq2SdgYzB4B7Q/edit#gid=0)
+- [Sample policies using clear objectives](https://www.flickr.com/photos/sunlightfoundation/sets/72157632913192963) -->
 
 ## 3. Drafting policy language
 
@@ -114,9 +132,9 @@ See our open data policy communications resources below, and consider submitting
 - [What Works Cities communications checklist ](https://www.bbhub.io/dotorg/sites/8/2016/05/05.26.16_WWC-Communications-Worksheet.pdf)
 - [Guidelines for guest posts on Sunlight's blog ](https://docs.google.com/document/d/1yIenQo8ydcWAL5OaLtPcaF4EawBeNmLbrJF65_x8m_4/edit)
 
-**Can't put until it's ready! :** Passed an open data policy and curious about what to do next? Check out our Communities + Open Data Hub to learn more about how open data can help you bring impact to your residents.
-
 ---
+
+**Can't put until it's ready! :** Passed an open data policy and curious about what to do next? Check out our Communities + Open Data Hub to learn more about how open data can help you bring impact to your residents.
 
 <div class="funfact-blockquote">
 This resource was created through the generous support of Bloomberg Philanthropies as part of the <a href="https://whatworkscities.bloomberg.org/">What Works Cities</a> program. This interactive guide is meant to aid participating What Works Cities and other communities, as any and all advocates interested in developing public policy to advance open data practice.
