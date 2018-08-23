@@ -1,22 +1,22 @@
 navbar:
 - text: Checklist
   permalink: /checklist/
-- text: Guidelines
-  permalink: /guidelines/
-- text: Collection
-  permalink: /collection/
 - text: Generator
   permalink: /generator/
+- text: Guidelines
+  permalink: /guidelines/
+- text: Library
+  permalink: /library/
 
 drawer:
 - text: Checklist
   permalink: /checklist/
-- text: Guidelines
-  permalink: /guidelines/
-- text: Collection
-  permalink: /collection/
 - text: Generator
   permalink: /generator/
+- text: Guidelines
+  permalink: /guidelines/
+- text: Library
+  permalink: /library/
 
 footer:
   - text: Discovery
