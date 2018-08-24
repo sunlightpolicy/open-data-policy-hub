@@ -11,7 +11,7 @@ These are all the open data policies we have on this site:
 {% assign docs = site.policies | sort: "place" %}
 {% for doc in docs %}
   <li>
-    <a href="{{ doc.url }}">{% include docname.html doc_page=doc %}</a>
+    <a href="{{ doc.url | prepend: site.baseurl }}">{% include docname.html doc_page=doc %}</a>
   </li>
 {% endfor %}
 </ul>

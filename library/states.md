@@ -17,7 +17,7 @@ Browse the open data policies listed by state:
   {% endfor %}
   {% if counter > 0 %}
     <li>
-      <a href="{{ state.url }}">{{ state.title }} ({{ counter }})</a>
+      <a href="{{ state.url | prepend: site.baseurl }}">{{ state.title }} ({{ counter }})</a>
     </li>
   {% endif %}
 {% endfor %}

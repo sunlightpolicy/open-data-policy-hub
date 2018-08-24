@@ -13,7 +13,7 @@ These are all the open data policies we have on this site, listed from oldest to
   {% assign year_docs = year.items | sort: "date" %}
   <ul>
   {% for doc in year_docs %}
-    <li><a href="{{ doc.url }}">{% include docname.html doc_page=doc %}</a></li>
+    <li><a href="{{ doc.url | prepend: site.baseurl }}">{% include docname.html doc_page=doc %}</a></li>
   {% endfor %}
   </ul>
 {% endfor %}
