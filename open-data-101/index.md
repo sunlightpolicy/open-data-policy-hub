@@ -6,7 +6,10 @@ lead: "Understand the fundamentals"
 
 **What is open data?**
 
+<div class="testimonial-blockquote">
 [Write a definition of open data.]
+<span>— Source (if we want this to be a quote from somewhere else)</span>
+</div>
 
 **Why bother with open data policy? Why not simply publish data?**
 
