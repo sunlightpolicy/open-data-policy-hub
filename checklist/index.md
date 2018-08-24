@@ -9,7 +9,7 @@ Public policy is an essential tool in helping governments make cultural shifts t
 
 We’ve developed this guide to help cities pass open data policies on their own. Passing an open data policy should be the first step in creating a sustainable, thriving open data program.
 
-<a class="usa-button" href="/open-data-101">Read more about open data</a>
+<a class="usa-button" href="{{ site.baseurl }}/open-data-101">Read more about open data</a>
 
 ## 1. Where to begin
 
