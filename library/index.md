@@ -15,6 +15,4 @@ You can also [browse by state](states/) or see a list of all the policies [alpha
 
 See our list of [Open Data Policy Guidelines]({{ site.baseurl }}/guidelines/) and what text from different policies matches those guidelines.
 
-Do you know of an open data policy that's not listed here? [Let us know here](/add-a-policy/)!
-
-Are you interested in writing your own open data policy? Check out some of our resources [here](http://whatworkscities.sunlightfoundation.com/#section-h2-05).
+Do you know of an open data policy that's not listed here? [Let us know here](https://docs.google.com/forms/d/e/1FAIpQLSewhk2jtp9JJlkUruDSj4Lzi8BvQBS2GYwz3d0m8bNhzCym4g/viewform)!
