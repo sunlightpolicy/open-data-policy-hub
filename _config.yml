@@ -34,7 +34,7 @@ jekyll-archives:
 collections:
   policies:
     output: true
-    permalink: /policy/:path/
+    permalink: /library/:path/
   states:
     output: true
     permalink: /state/:path/
