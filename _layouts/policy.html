@@ -56,19 +56,20 @@ title: ''
 <!-- The syntax highlighting on the next line will be messed up -->
 {% if content contains '<span class="g-' and content contains '">' %}
 <br>
-<div id="select-guideline">
-  <p>Highlight text matching an <a href="/guidelines/">Open Data Policy Guideline</a>:</p>
+<div id="select-guideline" class="funfact-blockquote" style="font-style:normal;">
+  <p>Highlight text matching an <a href="{{ site.baseurl }}/guidelines/">Open Data Policy Guideline</a>:</p>
   <select id="select-guideline" onchange="updateUrl()">
     <option selected disabled>Select a guideline...</option>
     <!-- We'll use JavaScript to add more options based on which guidelines this policy meets -->
   </select>
+  <p id="guideline-highlight-note" style="display:none;">See <span style="background-color:#FFFF00;">highlighted text</span> below.</p>
   <p id="guideline-see-more"></p>
 </div>
+{% else %}
+<hr>
 {% endif %}
 
 <!-- Main section -->
-<br>
-<hr>
 {% if page.note %}
   <p><em>Note: {{ page.note }}</em></p>
   <hr>
@@ -110,8 +111,9 @@ title: ''
   var guideline_id = location.search.replace('?', '');
   if (guideline_id !== '') {
     $('span.g-' + guideline_id).css('background-color', '#FFFF00');
-    $('p#guideline-see-more').html('<a href="' +
-      guideline_names[guideline_id].url + '">Read more about this guideline »</a>');
+    $('p#guideline-highlight-note').css('display', 'block');
+    $('p#guideline-see-more').html('<a class="link-arrow-right" href="' +
+      guideline_names[guideline_id].url + '">Read more about this guideline {% include svg/icons/arrow-right.svg %}</a>');
     $(function() {
       $('select#select-guideline').val(guideline_id);
     });
