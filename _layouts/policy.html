@@ -20,24 +20,6 @@ title: ''
   {% endfor %}
 {% endif %}
 
-
-<!-- {% if page.policy_urls %}
-  {% if page.policy_urls.size > 1 %}
-    <p>View original policy:
-    {% for policy in page.policy_urls %}
-      {% if forloop.first == false %}
-        ,
-      {% endif %}
-      <a href="{{ policy[1] }}">{{ policy[0] }}</a>
-    {% endfor %}
-    </p>
-  {% else %}
-    {% assign the_policy = page.policy_urls | first %}
-    <p><a href="{{ the_policy[1] }}">View original policy ({{ the_policy[0] }})</a></p>
-  {% endif %}
-{% endif %} -->
-
-
 <!-- Press release -->
 {% if page.press_url %}
   <p><a href="{{ page.press_url }}">View press release</a></p>
