@@ -14,7 +14,7 @@ layout: default
           <h2>{% include placedoc.html doc_page=page %}</h2>
         {% elsif page.layout == 'guideline' %}
           <h3><a href="{{ site.baseurl }}/guidelines/">Open Data Policy Guidelines</a> » Guideline {{ page.number }}</h3>
-          <h1>{{ page.number }}. {{ page.name }}</h1>
+          <h1>{{ page.name }}</h1>
         {% else %}
           <h1>{{ page.title }}</h1>
           {% if page.lead %}
