@@ -53,7 +53,8 @@ title: ''
 {% endif %}
 
 <!-- Select Open Data Policy Guideline to view highlighted -->
-{% if content contains '<span class="g-' %}
+<!-- The syntax highlighting on the next line will be messed up -->
+{% if content contains '<span class="g-' and content contains '">' %}
 <br>
 <div id="select-guideline">
   <p>Highlight text matching an <a href="/guidelines/">Open Data Policy Guideline</a>:</p>
