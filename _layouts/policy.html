@@ -12,7 +12,7 @@ title: ''
 
 <!-- Original policy -->
 {% if page.policy_url %}
-  <p><a href="{{ page.policy_url }}" class="usa-button">View original policy</a></p>
+  <a href="{{ page.policy_url }}" class="usa-button">View original policy</a>
 {% endif %}
 {% if page.policy_urls %}
   {% for policy in page.policy_urls %}
@@ -22,7 +22,7 @@ title: ''
 
 <!-- Press release -->
 {% if page.press_url %}
-  <p><a href="{{ page.press_url }}">View press release</a></p>
+  <a href="{{ page.press_url }}" class="usa-button">View press release</a>
 {% endif %}
 
 <!-- Data portal(s) -->
