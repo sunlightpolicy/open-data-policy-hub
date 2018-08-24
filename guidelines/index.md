@@ -13,9 +13,10 @@ Setting the default to open means that the government and parties acting on its 
 {% for section in sections %}
   <h2>{{ section[1] }}</h2>
   {% assign section_guidelines = site.guidelines | where: "section", section[0] %}
-  <ul>
+  {% assign start_num = section_guidelines | map: "number" | first %}
+  <ol start="{{ start_num }}">
   {% for guideline in section_guidelines %}
-    <li><a href="{{ site.baseurl }}{{ guideline.url }}">({{ guideline.number }}) {{ guideline.name }}</a></li>
+    <li><a href="{{ site.baseurl }}{{ guideline.url }}">{{ guideline.name }}</a></li>
   {% endfor %}
-  </ul>
+  </ol>
 {% endfor %}
