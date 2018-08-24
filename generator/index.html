@@ -1,0 +1,119 @@
+---
+layout: primary
+title: "Open Data Policy Generator"
+lead: "Use this form to help you create an open data policy! When you’re done, you will get an email with your sample policy."
+---
+
+<!-- Handle when someone selects "Other…" from a drop-down -->
+<script type="text/javascript">
+function checkOther(val, id) {
+  var element = document.getElementById(id);
+  if (val === "Other") {
+    element.style.display = "block";
+  } else {
+    element.style.display = "none";
+  }
+}
+</script>
+
+<!-- Confirmation message once when form submitted -->
+<div class="funfact-blockquote">
+  We sent a sample policy for (the) <strong><span id="sent-place">X Government</span></strong> to <strong><span id="sent-email">email address</span></strong>. Reach out to us at <a href="mailto:opencities@sunlightfoundation.com">opencities@sunlightfoundation.com</a> if you have any problems.
+</div>
+
+<p>We will send you a customized version of our <a href="https://docs.google.com/document/d/1eVI0GfvdGOt0V64sohgRz-kVUW70ELQmf0mfdUqW6MI/edit?usp=sharing">sample open data policy</a>.</p>
+
+<p>This is intended to provide you with a sample for you to work off of and customize for your own place or agency’s needs. Please do not just take the result blindly — read through the policy and make sure you understand all the parts, then fine-tune it to meet your needs.</p>
+
+<p>In the spirit of transparency, if you propose this policy, we strongly encourage you to cite where you got this sample text from (the Sunlight Foundation). And don’t forget to check out the <a href="{{ site.baseurl }}/guidelines/">Open Data Policy Guidelines</a> on this site.</p>
+
+<br>
+
+<form>
+  <h4>Government name: long</h4>
+  What is the full official name of your municipality, county, state, or other government? Examples: City of Minneapolis, City and County of San Francisco, Town of Amherst, Lexington-Fayette Urban County Government, District of Columbia, Barcelona City Council
+  <br>
+  <input type="text" name="long-name" placeholder="e.g. “City of Sunlight”" required />
+  <br>
+
+  <h4>Government name: short</h4>
+  This is a short name for how you want your government referenced later in the document. Examples: City, County, Town, District. (So if you put “City” as your short name, then the policy will say things like “all City agencies must...” and “the City will consider...”)
+  <br>
+  <input type="text" name="short-name" placeholder="e.g. “City”" required />
+  <br>
+
+  <h4>Who is signing or taking action on this policy?</h4>
+  <select name="who-signing" onchange="checkOther(this.value, 'who-signing-other');" required>
+      <option value="" selected disabled>Select…</option>
+      <option value="Mayor">Mayor</option>
+      <option value="Council">Council</option>
+      <option value="City Manager">City Manager</option>
+      <option value="Town Manager">Town Manager</option>
+      <option value="County Executive">County Executive</option>
+      <option value="Board of Supervisors">Board of Supervisors</option>
+      <option value="Board of Selectmen">Board of Selectmen</option>
+      <option value="Other">Other…</option>
+  </select>
+  <input type="text" name="who-signing-other" id="who-signing-other" style="display:none;" placeholder="Who?" />
+  <br>
+
+  <h4>Who will be responsible for managing the open data program?</h4>
+  <select name="who-managing" onchange="checkOther(this.value, 'who-managing-other');" required>
+      <option value="" selected disabled>Select…</option>
+      <option value="Chief Information Officer">Chief Information Officer</option>
+      <option value="Chief Data Officer">Chief Data Officer</option>
+      <option value="Open Data Manager">Open Data Manager</option>
+      <option value="Chief Innovation Officer">Chief Innovation Officer</option>
+      <option value="Chief Technology Officer">Chief Technology Officer</option>
+      <option value="Other">Other…</option>
+  </select>
+  <input type="text" name="who-managing-other" id="who-managing-other" style="display:none;" placeholder="Who?" />
+  <br>
+
+  <h4>Is the manager named above an existing position in the government or a newly established one?</h4>
+  <select name="existing-or-new" required>
+    <option value="" selected disabled>Select…</option>
+    <option value="existing">Existing position</option>
+    <option value="new">New position</option>
+  </select>
+  <br>
+
+  <h4>To what email address should this draft policy should be sent?</h4>
+  <input type="text" name="email" placeholder="Email address" required />
+  <br>
+
+  <input type="submit" value="Send me the policy!" class="usa-button" />
+
+  <!-- <label for="mayor">
+    <input type="radio" class="radio" name="who-signing" value="Mayor" id="mayor" />
+    Mayor
+  </label>
+  <input type="radio" class="radio" name="who-signing" value="Mayor">Mayor</input><br>
+  <input type="radio" class="radio" name="who-signing" value="City Manager">City Manager</input><br>
+  <input type="radio" class="radio" name="who-signing" value="Town Manager">Town Manager</input><br>
+  <input type="radio" class="radio" name="who-signing" value="Council">Council</input><br>
+  <input type="radio" class="radio" name="who-signing" value="Board of Supervisors">Board of Supervisors</input><br>
+  <input type="radio" class="radio" name="who-signing" value="Board of Selectmen">Board of Selectmen</input><br>
+  <input type="radio" class="radio" name="who-signing" value="Other">Other:</input><br> -->
+
+  <!-- Who is responsible for managing the open data program?<br>
+  <input type="radio" class="radio" name="who-managing" value="Chief Information Officer">Chief Information Officer</input><br>
+  <input type="radio" class="radio" name="who-managing" value="Chief Data Officer">Chief Data Officer</input><br>
+  <input type="radio" class="radio" name="who-managing" value="Open Data Manager">Open Data Manager</input><br>
+  <input type="radio" class="radio" name="who-managing" value="Chief Innovation Officer">Chief Innovation Officer</input><br>
+  <input type="radio" class="radio" name="who-managing" value="Chief Technology Officer">Chief Technology Officer</input><br>
+  <input type="radio" class="radio" name="who-managing" value="Other:">Other:</input><br>
+
+  Is the manager named above an existing position in the government or a newly established one?<br>
+  <input type="radio" class="radio" name="existing-or-new" value="existing">Existing position</input><br>
+  <input type="radio" class="radio" name="existing-or-new" value="new">New position</input><br>
+
+  To what email address should the policy should be sent?<br>
+  <input type="text" name="email">Email address</input><br>
+
+  <input type="submit" value="Send me the policy!" class="usa-button"></input> -->
+</form>
+
+<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2BeXHF-vkjbfmYRK0dIxYtWyaXUCkgG0a6twAIqRdwJM8dg/viewform?embedded=true" width="700" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
+
+<!-- <em>The source code for what happens once you submit this form can be found <a href="https://github.com/sunlightpolicy/open-data-policy-wizard">on GitHub</a>.</em> -->
