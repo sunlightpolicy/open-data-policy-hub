@@ -1,7 +1,7 @@
 ---
 layout: primary
 content_wide: true
-title: "Open Data Policy Checklist"
+title: "Open Data Policy Step-by-Step"
 lead: "A step-by-step guide to creating an open data policy."
 ---
 

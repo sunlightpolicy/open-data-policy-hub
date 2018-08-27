@@ -1,23 +1,23 @@
 navbar:
-- text: Checklist
+- text: Step-by-Step
   permalink: /checklist/
 - text: Generator
   permalink: /generator/
 - text: Guidelines
   permalink: /guidelines/
-- text: Library
+- text: Collection
   permalink: /library/
 - text: Open Data 101
   permalink: /open-data-101/
 
 drawer:
-- text: Checklist
+- text: Step-by-Step
   permalink: /checklist/
 - text: Generator
   permalink: /generator/
 - text: Guidelines
   permalink: /guidelines/
-- text: Library
+- text: Collection
   permalink: /library/
 - text: Open Data 101
   permalink: /open-data-101/

@@ -9,7 +9,7 @@ redirect_from: /dashboard/
   <section>
     <div class="usa-grid">
       <div class="hero-callout hero-callout-primary background-dark usa-width-full usa-width-tablet">
-        <h2>Open Data Policy Hub</h2>
+        <h1>Open Data Policy Hub</h1>
         <h3>Your one-stop-shop for learning how to write an open data policy.</h3>
       </div>
     </div>
@@ -17,7 +17,22 @@ redirect_from: /dashboard/
 </section>
 
 <section class="usa-section usa-grid">
-    <section class="usa-width-two-thirds usa-width-short-one">
+  <h2>Why open data?</h2>
+  <section>
+    <section class="usa-width-one-half usa-width-short-one">
+      <h4 class="p-line-height p-normal pad-bottom-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec enim nibh, rhoncus nec sapien in, tempus porta lacus.</h4>
+      <a class="link-arrow-right post-link-continue_reading" href="{{ site.baseurl}}/open-data-101">
+        Learn more about open data
+        {% include svg/icons/arrow-right.svg %}
+      </a>
+    </section>
+    <aside class="usa-width-one-half usa-width-shift-one">
+    </aside>
+  </section>
+</section>
+
+<section class="usa-section background-gray">
+    <section class="usa-grid usa-width-two-thirds usa-width-short-one">
       <h3 class="p-line-height p-normal pad-bottom-mobile">Looking to write an open data policy but don't know where to start? Here are four key resources to help you out!</h3>
     </section>
 </section>
@@ -25,7 +40,7 @@ redirect_from: /dashboard/
 <section class="usa-grid usa-section posts_feature" id="featured-resources">
   <ul>
     {% include resource-preview.html
-       name="Open Data Policy Checklist"
+       name="Open Data Policy Step-by-Step"
        description="Get started with our step-by-step guide to creating an open data policy. We’ll guide you through setting objectives, drafting language, collecting feedback, implementing the policy, and promoting the policy."
        action="Go through the steps"
        url="/checklist"
@@ -43,7 +58,7 @@ redirect_from: /dashboard/
        url="/guidelines"
     %}
     {% include resource-preview.html
-       name="Open Data Policy Library"
+       name="Open Data Policy Collection"
        description="Want to get a sense of what’s out there already? We’ve assembled a collection of over 100 open data policies from around the country."
        action="Check out existing policies"
        url="/library"

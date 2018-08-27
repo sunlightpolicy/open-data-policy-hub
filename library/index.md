@@ -1,8 +1,18 @@
 ---
 layout: primary
-title: "Open Data Policy Library"
+title: "Open Data Policy Collection"
 content_wide: true
 ---
+
+<!-- <section class="usa-section usa-grid"> -->
+Browse our collection of open data policies:
+
+<a class="usa-button">by date of adoption</a>
+<a class="usa-button">alphabetically by place name</a>
+
+or select a location from the map below:
+
+<!-- </section> -->
 
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0/leaflet.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0/leaflet.js"></script>
@@ -11,8 +21,10 @@ content_wide: true
 
 <!-- *Red markers indicate [What Works Cities](https://whatworkscities.bloomberg.org/cities/).* -->
 
-You can also [browse by state](states/) or see a list of all the policies [alphabetically](all/) or [by date](by-date/).
+<!-- <section class="usa-section usa-grid"> -->
 
-See our list of [Open Data Policy Guidelines]({{ site.baseurl }}/guidelines/) and what text from different policies matches those guidelines.
+Many of the policies have text that meets some of our [Open Data Policy Guidelines]({{ site.baseurl }}/guidelines/). Explore the Guidelines to see matching text for each guideline.
 
 Do you know of an open data policy that's not listed here? [Let us know here](https://docs.google.com/forms/d/e/1FAIpQLSewhk2jtp9JJlkUruDSj4Lzi8BvQBS2GYwz3d0m8bNhzCym4g/viewform)!
+
+<!-- </section> -->
