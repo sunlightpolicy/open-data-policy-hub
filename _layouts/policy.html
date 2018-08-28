@@ -26,7 +26,7 @@ title: ''
 {% endif %}
 
 <!-- Data portal(s) -->
-{% assign the_place = site.places | where: "place", page.place | first %}
+<!-- {% assign the_place = site.places | where: "place", page.place | first %}
 {% if the_place.portal_urls %}
   {% if the_place.portal_urls.size > 1 %}
     <p>View data portals:
@@ -41,16 +41,16 @@ title: ''
     {% assign the_portal = the_place.portal_urls | first %}
     <p><a href="{{ the_portal[1] }}">View data portal</a></p>
   {% endif %}
-{% endif %}
+{% endif %} -->
 
 <!-- Sunlight and WWC status -->
 {% assign sunlight_assist_types = 'wwc,nonwwc,prewwc' | split: ',' %}
 {% if sunlight_assist_types contains page.sunlight %}
   <p><a href="https://sunlightfoundation.com/policy/open-cities/">Sunlight</a> provided assistance with the development of this policy.</p>
 {% endif %}
-{% if the_place.wwc %}
+<!-- {% if the_place.wwc %}
   <p>This city is part of the <a href="https://whatworkscities.bloomberg.org/">What Works Cities</a> program.</p>
-{% endif %}
+{% endif %} -->
 
 <!-- Select Open Data Policy Guideline to view highlighted -->
 <!-- The syntax highlighting on the next line will be messed up -->
@@ -67,6 +67,7 @@ title: ''
   <p id="guideline-see-more"></p>
 </div>
 {% else %}
+<hr>
 <hr>
 {% endif %}
 
