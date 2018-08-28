@@ -1,17 +1,27 @@
 <a class="skipnav" href="#main-content">Skip to main content</a>
 <header role="banner">
+  <div class="usa-disclaimer">
+    <div class="usa-disclaimer-official usa-grid">
+      <div class="usa-disclaimer-inner">
+        <p>A product of the </p>
+        <!-- <img src="{{ site.baseurl }}/assets/img/global/usa-flag.png" alt="Sunlight Foundation logo"> -->
+        <img src="https://sunlight-cdn.s3.amazonaws.com/brandingbar/0.3/img/sunlight-logo.svg" alt="Sunlight Foundation logo">
+      </div>
+    </div>
+  </div>
   <div class="site-navbar usa-grid">
     <button class="menu-btn">Menu</button>
     <a class="site-logo media_link" href="{{ site.baseurl }}/">
-      <img src="{{ site.baseurl }}/assets/img/logos/sunlight-logo-dark.png" alt="Sunlight logo"
+      <img src="{{ site.baseurl }}/assets/img/logos/open-data-policy-hub.png" alt="Sunlight logo"
       {% if page.url == '/' %}
-        aria-hidden="true"
+      aria-hidden="true"
       {% endif %}
-      ></a>
+      >
+    </a>
     {% if page.url == '/' %}
-      <h1 class="usa-sr-only">Sunlight</h1>
-      {% else %}
-        <span class="usa-sr-only">Sunlight</span>
+    <h1 class="usa-sr-only">Sunlight</h1>
+    {% else %}
+    <span class="usa-sr-only">Sunlight</span>
     {% endif %}
     <nav role="navigation">
       {% include navigation.html navbar=true %}

@@ -7,3 +7,27 @@ section#featured-resources ul li:nth-child(even) {
 section#featured-resources ul li {
     margin-bottom: 4rem;
 }
+
+.usa-disclaimer {
+    height: 4.1rem !important;
+    font-size: 1.6rem !important;
+    padding-top: 0.5rem;
+}
+
+.usa-disclaimer-inner {
+    margin: 0 auto;
+    display: table;
+}
+
+.usa-disclaimer-official p {
+    vertical-align: middle;
+    color: gray;
+    margin-right: 4px !important;
+}
+
+.usa-disclaimer-official img {
+    float: none !important;
+    width: unset !important;
+    height: 3rem;
+    vertical-align: middle;
+}
