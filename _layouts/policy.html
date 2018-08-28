@@ -88,10 +88,15 @@ title: ''
 </div>
 
 
-<!-- Create table of contents -->
-<!-- Need to make this conditional on having at least 3 headings -->
+<!-- Create table of contents, if at least 3 headings -->
 <script src="{{ site.baseurl }}/assets/js/create-toc-from-headings.js"></script>
-
+<script>
+  var headings = $('h1, h2', $('#main-column'));
+  if (headings.length < 3) {
+    $('aside').remove();
+  }
+</script>
+<!-- Yes, that script to undo if headings<3 is janky; temporary solution -->
 
 <!-- Compile a hash containing guideline names, numbers, and ids (key = id) -->
 <script type="text/javascript">
