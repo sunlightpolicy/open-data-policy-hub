@@ -43,7 +43,7 @@ Learn more about "[why public policy?](http://sunlightfoundation.com/blog/2015/1
  link="https://docs.google.com/a/sunlightfoundation.com/document/d/17HOulBk4-2w3aaqJmY-eFuyomGScyv7nJyiCvYCHwx0/edit?usp=sharing"
 %}
 
-### The issues
+<!-- ### The issues
 
 {% include card.html
  image_src="none"
@@ -64,7 +64,7 @@ Learn more about "[why public policy?](http://sunlightfoundation.com/blog/2015/1
  image_src="none"
  tagline="Issue 3"
  link="https://docs.google.com/a/sunlightfoundation.com/document/d/17HOulBk4-2w3aaqJmY-eFuyomGScyv7nJyiCvYCHwx0/edit?usp=sharing"
-%}
+%} -->
 
 <!--
 - [Video: Opening data in Philly](https://www.youtube.com/watch?v=ObrlsMA7c3M)
