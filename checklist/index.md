@@ -29,7 +29,7 @@ Learn more about Sunlight’s approach to context and strategy below:
 
 <p><a href="https://docs.google.com/document/d/1xKvUNM4aIeDmzvY8aODjkrsS0HTRo9VaacGQtlsJBTA/edit" class="link-arrow-right">Common Municipal Governance Structures {% include svg/icons/arrow-right.svg %}</a></p>
 
-<p><a href="" class="link-arrow-right">[Add Alena’s research once it’s out] {% include svg/icons/arrow-right.svg %}</a></p>
+<!-- <p><a href="" class="link-arrow-right">[Add Alena’s research once it’s out] {% include svg/icons/arrow-right.svg %}</a></p> -->
 
 <!-- <div class="funfact-blockquote">
   <div class="small-caps">Resources:</div>
@@ -136,7 +136,7 @@ See our open data policy communications resources below, and consider submitting
 
 ---
 
-**Can't put until it's ready! :** Passed an open data policy and curious about what to do next? Check out our Communities + Open Data Hub to learn more about how open data can help you bring impact to your residents.
+<!-- **Can't put until it's ready! :** Passed an open data policy and curious about what to do next? Check out our Communities + Open Data Hub to learn more about how open data can help you bring impact to your residents. -->
 
 <div class="funfact-blockquote">
 This resource was created through the generous support of Bloomberg Philanthropies as part of the <a href="https://whatworkscities.bloomberg.org/">What Works Cities</a> program. This interactive guide is meant to aid participating What Works Cities and other communities, as any and all advocates interested in developing public policy to advance open data practice.
