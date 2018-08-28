@@ -1,7 +1,7 @@
 # Site settings
 title: "Open Data Policy Hub"
 description: "Learn how to write your own open data policy, and see existing ones."
-baseurl: "/open-data-policy-hub" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 permalink: pretty
 # url: "https://18f.gsa.gov" # the base hostname & protocol for your sites
 # federalist_url: "https://federalist.18f.gov"
