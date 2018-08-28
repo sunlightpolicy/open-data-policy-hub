@@ -25,9 +25,12 @@ Learn more about Sunlight’s approach to context and strategy below:
 
 ### Resources:
 
-<p><a href="https://docs.google.com/document/d/1-BzDPwrquZVCY1NMMv2khzagjp7NMOGvcjIt5aNfhi4/edit#heading=h.70ahsimeeom" class="link-arrow-right">Developing an Open Data Policy Framework in Context {% include svg/icons/arrow-right.svg %}</a></p>
+- [Developing an Open Data Policy Framework in Context](https://docs.google.com/document/d/1-BzDPwrquZVCY1NMMv2khzagjp7NMOGvcjIt5aNfhi4/edit#heading=h.70ahsimeeom)
+- [Common Municipal Governance Structures](https://docs.google.com/document/d/1xKvUNM4aIeDmzvY8aODjkrsS0HTRo9VaacGQtlsJBTA/edit)
 
-<p><a href="https://docs.google.com/document/d/1xKvUNM4aIeDmzvY8aODjkrsS0HTRo9VaacGQtlsJBTA/edit" class="link-arrow-right">Common Municipal Governance Structures {% include svg/icons/arrow-right.svg %}</a></p>
+<!-- <p><a href="https://docs.google.com/document/d/1-BzDPwrquZVCY1NMMv2khzagjp7NMOGvcjIt5aNfhi4/edit#heading=h.70ahsimeeom" class="link-arrow-right">Developing an Open Data Policy Framework in Context {% include svg/icons/arrow-right.svg %}</a></p>
+
+<p><a href="https://docs.google.com/document/d/1xKvUNM4aIeDmzvY8aODjkrsS0HTRo9VaacGQtlsJBTA/edit" class="link-arrow-right">Common Municipal Governance Structures {% include svg/icons/arrow-right.svg %}</a></p> -->
 
 <!-- <p><a href="" class="link-arrow-right">[Add Alena’s research once it’s out] {% include svg/icons/arrow-right.svg %}</a></p> -->
 
@@ -59,7 +62,7 @@ A working statement of policy goals can and should be revised and updated as add
 
 ### Resources:
 
-{% include card.html
+<!-- {% include card.html
  image_src="none"
  tagline="Examples of 'Whereas' clauses in open data policies"
  link="https://docs.google.com/spreadsheets/d/1ySe2asRlhqqHCpDoc4Zp5qINuo-9iHeq2SdgYzB4B7Q/edit#gid=0"
@@ -68,10 +71,10 @@ A working statement of policy goals can and should be revised and updated as add
  image_src="none"
  tagline="Sample policies using clear objectives"
  link="https://www.flickr.com/photos/sunlightfoundation/sets/72157632913192963"
-%}
+%} -->
 
-<!-- - [Examples of 'Whereas' clauses in open data policies](https://docs.google.com/spreadsheets/d/1ySe2asRlhqqHCpDoc4Zp5qINuo-9iHeq2SdgYzB4B7Q/edit#gid=0)
-- [Sample policies using clear objectives](https://www.flickr.com/photos/sunlightfoundation/sets/72157632913192963) -->
+- [Examples of 'Whereas' clauses in open data policies](https://docs.google.com/spreadsheets/d/1ySe2asRlhqqHCpDoc4Zp5qINuo-9iHeq2SdgYzB4B7Q/edit#gid=0)
+- [Sample policies using clear objectives](https://www.flickr.com/photos/sunlightfoundation/sets/72157632913192963)
 
 ## 3. Drafting policy language
 
@@ -88,9 +91,9 @@ We recommend that you [explore the policies](http://www.opendatapolicies.org/bro
 Our team at the Sunlight Foundation has put together guidelines that address what data should be public, how to make data public, and how to implement your policy. Incorporating these guidelines can be key to the success of your program and the effectiveness of your policy.
 
 ### Resources:
-- [Guidelines for your policy](https://sunlightfoundation.com/opendataguidelines/)
+- [Guidelines for your policy]({{ site.baseurl }}/guidelines/)
 - [Checklist: implementing the guidelines](https://docs.google.com/spreadsheets/d/1TaY7yIQJK-yFi85eplW9V2r2tR9xNtW8Inaq1nO44ec/edit#gid=1152618309)
-- Open data policy wizard: start drafting your own
+- [Open Data Policy Generator]({{ site.baseurl }}/generator)
 
 ## 4. Collecting stakeholder feedback
 
@@ -103,8 +106,8 @@ This engagement is especially critical as the policy language itself is drafted.
 Hosting internal and [public meetings](https://sunlightfoundation.com/blog/2013/12/04/montgomery-countys-open-data-town-hall-the-town-hall-of-the-future/) is one tried-and-true approach. Many cities are also exploring [collaborative online approaches to policy making](https://sunlightfoundation.com/blog/2016/03/11/crowdlaw-and-open-data-policy-a-perfect-match/) that empower external stakeholders to participate in the process. One tool is [Madison](https://mymadison.io/), a free platform that allows the public to comment on proposed policies. Check out the resources below for more tools and guides for engaging stakeholders in drafting policy.
 
 ### Resources:
-- Crowdlaw Tracker: See who else is doing it
-- Video: [Sunlight Office Hours: Participatory Policy-Making](https://www.youtube.com/watch?v=RkbmGWkVCcs&feature=youtu.be)
+- [Spreadsheet — Examples of collaborative policymaking for open data](https://docs.google.com/spreadsheets/d/10pOyaJRtKCpvNk3IZFLmVZEeNZJ4yaeaku2Ax7oL68g/edit?usp=sharing)
+- [Video — Sunlight Office Hours: Participatory Policy-Making](https://www.youtube.com/watch?v=RkbmGWkVCcs&feature=youtu.be)
 - [Tools for Open Data Community Engagement](https://docs.google.com/document/d/1Jm1hIuiMEf3SLwmP1B3KgvHvrBDLKI7jA36hEDVwp34/edit)
 - [Getting started with Madison](https://drive.google.com/file/d/0B-yyIAljB-OPN2Q3V0RYalp2UXFDWEVYWktFLTlZVm9EOVcw/view)
 - [Case study: How to invite feedback on an open data policy](https://sunlightfoundation.com/2017/03/10/how-to-invite-feedback-on-an-open-data-policy/)
