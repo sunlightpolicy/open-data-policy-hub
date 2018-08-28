@@ -36,3 +36,11 @@ section#featured-resources ul li {
     /* width: 13rem; */
     height: 4.5rem;
 }
+
+.funfact-blockquote, .testimonial-blockquote {
+  color: black !important;
+}
+
+div.funfact-blockquote#select-guideline {
+  font-style: normal;
+}

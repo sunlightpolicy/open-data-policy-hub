@@ -57,6 +57,7 @@ title: ''
 {% if content contains '<span class="g-' and content contains '">' %}
 <br>
 <div id="select-guideline" class="funfact-blockquote" style="font-style:normal;">
+<!-- <div id="select-guideline"> -->
   <p>Highlight text matching an <a href="{{ site.baseurl }}/guidelines/">Open Data Policy Guideline</a>:</p>
   <select id="select-guideline" onchange="updateUrl()">
     <option selected disabled>Select a guideline...</option>
@@ -112,8 +113,8 @@ title: ''
   if (guideline_id !== '') {
     $('span.g-' + guideline_id).css('background-color', '#FFFF00');
     $('p#guideline-highlight-note').css('display', 'block');
-    $('p#guideline-see-more').html('<a class="link-arrow-right" href="' +
-      guideline_names[guideline_id].url + '">Read more about this guideline {% include svg/icons/arrow-right.svg %}</a>');
+    $('p#guideline-see-more').html('<a href="' +
+      guideline_names[guideline_id].url + '">Read more about this guideline »</a>');
     $(function() {
       $('select#select-guideline').val(guideline_id);
     });
