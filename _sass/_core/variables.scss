@@ -23,12 +23,22 @@ $font-monospace:     Consolas, Monaco, "Andale Mono", monospace;
 
 // Color
 $color-light:        #b3efff; // $color-light / $color-secondary-light
-$color-bright:       #00cfff; // $color-bright / $color-secondary
+// $color-bright:       #00cfff; // $color-bright / $color-secondary
 $color-medium:       #046b99; // $color-medium / $color-primary
-$color-dark:         #1C304A; // $color-dark / $color-primary-dark
+// $color-dark:         #1C304A; // $color-dark / $color-primary-dark
 $color-base:         #1F2E4A;
 $color-black:		 #000000;
 $color-inverse:		 #ffffff;
+
+// $color-dark: #78bcbf; // green
+// $color-dark:         #BD8F22; // nasty
+// $color-dark:         #E3BA22;
+// $color-bright:       #F2DA57;
+
+$color-dark: #e0b524;
+// $color-dark: #f6c41f;
+// $color-medium: #f6c41f;
+$color-bright: #f9e572;
 
 $color-bright-hover: #00A7CE;
 $color-medium-hover: #00547A;
