@@ -8,6 +8,10 @@ The provisions are not ranked in order of priority and do not address every ques
 
 Setting the default to open means that the government and parties acting on its behalf will make public information available proactively and that they’ll put that information within reach of the public (online), without barriers for its reuse and consumption. Setting the default to open is about living up to the potential of our information, about looking at comprehensive information management and making determinations that fall in the public interest.
 
+<div class="funfact-blockquote">
+Click on a guideline below to read more and see examples of matching language from our Open Data Policy Collection!
+</div>
+
 {% assign guidelines_by_section = site.guidelines | group_by: "section" %}
 {% assign sections = site.data.guideline-sections %}
 {% for section in sections %}
