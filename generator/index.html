@@ -16,11 +16,6 @@ function checkOther(val, id) {
 }
 </script>
 
-<!-- Confirmation message once when form submitted -->
-<!-- <div class="funfact-blockquote">
-  We sent a sample policy for (the) <strong><span id="sent-place">X Government</span></strong> to <strong><span id="sent-email">email address</span></strong>. Reach out to us at <a href="mailto:opencities@sunlightfoundation.com">opencities@sunlightfoundation.com</a> if you have any problems.
-</div> -->
-
 <p>We will send you a customized version of our <a href="https://docs.google.com/document/d/1eVI0GfvdGOt0V64sohgRz-kVUW70ELQmf0mfdUqW6MI/edit?usp=sharing">sample open data policy</a>.</p>
 
 <p>This is intended to provide you with a sample for you to work off of and customize for your own place or agency’s needs. Please do not just take the result blindly — read through the policy and make sure you understand all the parts, then fine-tune it to meet your needs.</p>
@@ -85,6 +80,11 @@ function checkOther(val, id) {
   <input type="submit" value="Send me the policy!" class="usa-button" />
 </form>
 
+<!-- Confirmation message once when form submitted -->
+<div class="funfact-blockquote" id="submit-confirmation" style="display:none;">
+  We sent a sample policy for the <strong><span id="sent-place">place</span></strong> to <strong><span id="sent-email">email address</span></strong>! Reach out to us at <a href="mailto:opencities@sunlightfoundation.com">opencities@sunlightfoundation.com</a> if you have any problems.
+</div>
+
 <script>
   $("form").on("submit", function(event) {
     event.preventDefault();
@@ -146,8 +146,9 @@ function checkOther(val, id) {
 
     window.open(urlstring,"_blank");
 
-    alert(urlstring);
-    console.log(urlstring);
-
+    // Post confirmation-of-form-submission note on page
+    $("#sent-place")[0].innerText = results["long-name"];
+    $("#sent-email")[0].innerText = results["email"];
+    $("#submit-confirmation").css("display", "block");
   });
 </script>
