@@ -1,26 +1,26 @@
 navbar:
-- text: Step-by-Step
-  permalink: /step-by-step/
-- text: Generator
-  permalink: /generator/
-- text: Guidelines
-  permalink: /guidelines/
-- text: Collection
-  permalink: /collection/
-- text: Open Data 101
-  permalink: /open-data-101/
+  - text: Step-by-Step
+    permalink: /step-by-step/
+  - text: Generator
+    permalink: /generator/
+  - text: Guidelines
+    permalink: /guidelines/
+  - text: Collection
+    permalink: /collection/
+  - text: Open Data 101
+    permalink: /open-data-101/
 
 drawer:
-- text: Step-by-Step
-  permalink: /step-by-step/
-- text: Generator
-  permalink: /generator/
-- text: Guidelines
-  permalink: /guidelines/
-- text: Collection
-  permalink: /collection/
-- text: Open Data 101
-  permalink: /open-data-101/
+  - text: Step-by-Step
+    permalink: /step-by-step/
+  - text: Generator
+    permalink: /generator/
+  - text: Guidelines
+    permalink: /guidelines/
+  - text: Collection
+    permalink: /collection/
+  - text: Open Data 101
+    permalink: /open-data-101/
 
 footer:
   - text: Discovery
