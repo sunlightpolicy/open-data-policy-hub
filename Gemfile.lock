@@ -203,6 +203,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll (~> 3.3.0)
+  jekyll-redirect-from
   jemoji
 
 RUBY VERSION

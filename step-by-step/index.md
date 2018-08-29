@@ -3,6 +3,8 @@ layout: primary
 content_wide: true
 title: "Open Data Policy Step-by-Step"
 lead: "A step-by-step guide to creating an open data policy."
+redirect_from:
+  - /checklist/
 ---
 
 Public policy is an essential tool in helping governments make cultural shifts toward transparency and openness in the spirit of collaboration. As a cornerstone of open government, open data is one of the best tools data-driven cities can use to begin connecting with and collaborating with their residents.
@@ -84,7 +86,7 @@ After considering existing contexts and workshopping open data policy objectives
 
 New policy drafts can benefit from the ideas and language found in examples from other cities that have enacted open data policies.
 
-We recommend that you [explore the policies](http://www.opendatapolicies.org/browse/) on our Open Data Policy Collection to get a sense of the kind of language other places have used in their policies. We also encourage you to copy, paste, and remix the content as you please.
+We recommend that you explore the policies on our [Open Data Policy Collection]({{ site.baseurl }}/collection) to get a sense of the kind of language other places have used in their policies. We also encourage you to copy, paste, and remix the content as you please.
 
 ### ☑ Incorporate best practices
 

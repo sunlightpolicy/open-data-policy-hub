@@ -127,6 +127,8 @@ exclude:
 #   - jekyll-feed
 #   - jekyll-seo-tag
 #   - jekyll-paginate
+gems:
+  - 'jekyll-redirect-from'
 
 # Configuration for jekyll_pages_api_search plugin gem.
 jekyll_pages_api_search:

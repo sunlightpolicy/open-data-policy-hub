@@ -10,3 +10,5 @@ gem 'jekyll', '~> 3.3.0'
 gem 'jemoji'
 # gem 'parallel'
 # gem 'ruby-oembed'
+
+gem 'jekyll-redirect-from'
