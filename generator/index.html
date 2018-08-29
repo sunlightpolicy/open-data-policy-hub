@@ -96,20 +96,6 @@ function checkOther(val, id) {
     });
     console.log(results);
 
-    // If "Other", substitute in the longer answer
-    // if (results['who-signing-other']) {
-    //   results['who-signing'] = results['who-signing-other'];
-    //   delete ['who-signing-other'];
-    // }
-    // if (results['who-managing-other']) {
-    //   results['who-managing'] = results['who-managing-other'];
-    //   delete ['who-managing-other'];
-    // }
-
-    // console.log( $( this ).serialize() );
-    // console.log( $( this ).serializeArray() );
-    // alert( $( this ).serialize() );
-
     // Assemble object with URL parameters
     var parameters = {
       "entry.1250814336": results["long-name"],
@@ -140,10 +126,7 @@ function checkOther(val, id) {
     var urlstring_end = "&submit=Submit";
     var urlstring = urlstring_start + urlstring_parameters + urlstring_end;
 
-    // $.ajax({
-    //    url: urlstring
-    // });
-
+    // Submit to Google Forms!
     window.open(urlstring,"_blank");
 
     // Post confirmation-of-form-submission note on page
