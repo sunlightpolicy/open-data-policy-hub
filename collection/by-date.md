@@ -4,8 +4,6 @@ title: Policies by date of adoption
 breadcrumb: collection
 ---
 
-{% include base.html %}
-
 These are all the open data policies we have on this site, listed from oldest to newest:
 <br>
 {% assign docs_by_year = site.policies | group_by: "year" %}

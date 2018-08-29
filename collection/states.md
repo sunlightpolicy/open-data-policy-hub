@@ -3,8 +3,6 @@ layout: primary
 title: Browse by state
 ---
 
-{% include base.html %}
-
 Browse the open data policies listed by state:
 
 <ul>

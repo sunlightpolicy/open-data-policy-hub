@@ -4,8 +4,6 @@ title: Policies by place name
 breadcrumb: collection
 ---
 
-{% include base.html %}
-
 These are all the open data policies we have on this site:
 
 <ul>
