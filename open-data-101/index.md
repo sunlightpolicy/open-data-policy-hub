@@ -8,8 +8,8 @@ content_wide: true
 ### What is open data?
 
 <div class="testimonial-blockquote">
-[Write a definition of open data.]
-<span>— Source (if we want this to be a quote from somewhere else)</span>
+Open data is data that can be freely used, re-used and redistributed by anyone — subject only, at most, to the requirement to attribute and sharealike.
+<span>— Open Knowledge International</span>
 </div>
 
 ### Why bother with open data policy? Why not simply publish data?
@@ -22,6 +22,11 @@ Learn more about "[why public policy?](http://sunlightfoundation.com/blog/2015/1
 
 ### The basics
 
+{% include card.html
+ image_src="none"
+ tagline="Getting started with open data"
+ link="https://simpleopendata.com/"
+%}
 {% include card.html
  image_src="none"
  tagline="Video: Opening data in Philly"
