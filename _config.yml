@@ -29,7 +29,7 @@ jekyll-archives:
 collections:
   policies:
     output: true
-    permalink: /library/:path/
+    permalink: /collection/:path/
   states:
     output: true
     permalink: /state/:path/
