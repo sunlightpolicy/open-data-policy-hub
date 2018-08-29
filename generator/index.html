@@ -8,7 +8,7 @@ lead: "Use this form to help you create an open data policy! When you’re done,
 <script type="text/javascript">
 function checkOther(val, id) {
   var element = document.getElementById(id);
-  if (val === "Other") {
+  if (val === "__other_option__") {
     element.style.display = "block";
   } else {
     element.style.display = "none";
@@ -52,7 +52,7 @@ function checkOther(val, id) {
       <option value="County Executive">County Executive</option>
       <option value="Board of Supervisors">Board of Supervisors</option>
       <option value="Board of Selectmen">Board of Selectmen</option>
-      <option value="Other">Other…</option>
+      <option value="__other_option__">Other…</option>
   </select>
   <input type="text" name="who-signing-other" id="who-signing-other" style="display:none;" placeholder="Who?" />
   <br>
@@ -65,7 +65,7 @@ function checkOther(val, id) {
       <option value="Open Data Manager">Open Data Manager</option>
       <option value="Chief Innovation Officer">Chief Innovation Officer</option>
       <option value="Chief Technology Officer">Chief Technology Officer</option>
-      <option value="Other">Other…</option>
+      <option value="__other_option__">Other…</option>
   </select>
   <input type="text" name="who-managing-other" id="who-managing-other" style="display:none;" placeholder="Who?" />
   <br>
@@ -73,8 +73,8 @@ function checkOther(val, id) {
   <h4>Is the manager named above an existing position in the government or a newly established one?</h4>
   <select name="existing-or-new" required>
     <option value="" selected disabled>Select…</option>
-    <option value="existing">Existing position</option>
-    <option value="new">New position</option>
+    <option value="Existing position">Existing position</option>
+    <option value="New position">New position</option>
   </select>
   <br>
 
@@ -85,3 +85,69 @@ function checkOther(val, id) {
   <input type="submit" value="Send me the policy!" class="usa-button" />
 </form>
 
+<script>
+  $("form").on("submit", function(event) {
+    event.preventDefault();
+
+    // Compile results object
+    var results = {};
+    $.each($("form").serializeArray(), function() {
+        results[this.name] = this.value;
+    });
+    console.log(results);
+
+    // If "Other", substitute in the longer answer
+    // if (results['who-signing-other']) {
+    //   results['who-signing'] = results['who-signing-other'];
+    //   delete ['who-signing-other'];
+    // }
+    // if (results['who-managing-other']) {
+    //   results['who-managing'] = results['who-managing-other'];
+    //   delete ['who-managing-other'];
+    // }
+
+    // console.log( $( this ).serialize() );
+    // console.log( $( this ).serializeArray() );
+    // alert( $( this ).serialize() );
+
+    // Assemble object with URL parameters
+    var parameters = {
+      "entry.1250814336": results["long-name"],
+      "entry.1770304101": results["short-name"],
+      "entry.41135785": results["who-signing"],
+      "entry.2133431410": results["who-managing"],
+      "entry.1384464907": results["existing-or-new"],
+      "entry.1718380783": results["email"]
+    };
+    if (results["who-signing"] === "__other_option__") {
+      if (results["who-signing-other"]) {
+        parameters["entry.41135785.other_option_response"] = results["who-signing-other"];
+      } else {
+        parameters["entry.41135785.other_option_response"] = "person signing this policy";
+      }
+    }
+    if (results["who-managing"] === "__other_option__") {
+      if (results['who-managing-other']) {
+        parameters["entry.2133431410.other_option_response"] = results["who-managing-other"];
+      } else {
+        parameters["entry.2133431410.other_option_response"] = "person managing the open data program";
+      }
+    }
+
+    // Assemble URL string for form submit
+    var urlstring_start = "https://docs.google.com/forms/d/e/1FAIpQLSe2BeXHF-vkjbfmYRK0dIxYtWyaXUCkgG0a6twAIqRdwJM8dg/formResponse?";
+    var urlstring_parameters = $.param(parameters);
+    var urlstring_end = "&submit=Submit";
+    var urlstring = urlstring_start + urlstring_parameters + urlstring_end;
+
+    // $.ajax({
+    //    url: urlstring
+    // });
+
+    window.open(urlstring,"_blank");
+
+    alert(urlstring);
+    console.log(urlstring);
+
+  });
+</script>
