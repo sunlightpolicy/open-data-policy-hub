@@ -1,6 +1,7 @@
 ---
 layout: primary
-title: List of all open data policies
+title: Policies by place name
+breadcrumb: collection
 ---
 
 {% include base.html %}

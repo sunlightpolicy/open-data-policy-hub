@@ -1,6 +1,7 @@
 ---
 layout: primary
-title: Browse open data policies by date
+title: Policies by date of adoption
+breadcrumb: collection
 ---
 
 {% include base.html %}
@@ -17,3 +18,6 @@ These are all the open data policies we have on this site, listed from oldest to
   {% endfor %}
   </ul>
 {% endfor %}
+
+<!-- Create table of contents -->
+<script src="{{ site.baseurl }}/assets/js/create-toc-from-headings.js"></script>

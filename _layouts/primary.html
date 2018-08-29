@@ -17,6 +17,9 @@ layout: default
           <h3><a href="{{ site.baseurl }}/guidelines/">Open Data Policy Guidelines</a> » Guideline {{ page.number }}</h3>
           <h1>{{ page.name }}</h1>
         {% else %}
+          {% if page.breadcrumb %}
+          <h3><a href="{{ site.baseurl }}/{{ page.breadcrumb}}/">{{ site.data.site-sections[page.breadcrumb] }}</a></h3>
+          {% endif %}
           <h1>{{ page.title }}</h1>
           {% if page.lead %}
             <h3 class="section-heading section-heading-alt">{{ page.lead }}</h3>
