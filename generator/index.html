@@ -4,18 +4,6 @@ title: "Open Data Policy Generator"
 lead: "Use this form to help you create an open data policy! When you’re done, you will get an email with your sample policy."
 ---
 
-<!-- Handle when someone selects "Other…" from a drop-down -->
-<script type="text/javascript">
-function checkOther(val, id) {
-  var element = document.getElementById(id);
-  if (val === "__other_option__") {
-    element.style.display = "block";
-  } else {
-    element.style.display = "none";
-  }
-}
-</script>
-
 <p>We will send you a customized version of our <a href="https://docs.google.com/document/d/1eVI0GfvdGOt0V64sohgRz-kVUW70ELQmf0mfdUqW6MI/edit?usp=sharing">sample open data policy</a>.</p>
 
 <p>This is intended to provide you with a sample for you to work off of and customize for your own place or agency’s needs. Please do not just take the result blindly — read through the policy and make sure you understand all the parts, then fine-tune it to meet your needs.</p>
@@ -85,6 +73,20 @@ function checkOther(val, id) {
   We sent a sample policy for the <strong><span id="sent-place">place</span></strong> to <strong><span id="sent-email">email address</span></strong>! Reach out to us at <a href="mailto:opencities@sunlightfoundation.com">opencities@sunlightfoundation.com</a> if you have any problems.
 </div>
 
+
+<!-- Handle when someone selects "Other…" from a drop-down -->
+<script type="text/javascript">
+function checkOther(val, id) {
+  var element = document.getElementById(id);
+  if (val === "__other_option__") {
+    element.style.display = "block";
+  } else {
+    element.style.display = "none";
+  }
+}
+</script>
+
+<!-- Handle form submit -->
 <script>
   $("form").on("submit", function(event) {
     event.preventDefault();
