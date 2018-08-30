@@ -62,7 +62,7 @@ lead: "Use this form to help you create an open data policy! When you’re done,
   <br>
 
   <h4>To what email address should this draft policy should be sent?</h4>
-  <input type="text" name="email" placeholder="Email address" required />
+  <input type="email" name="email" placeholder="Email address" required />
   <br>
 
   <input type="submit" value="Send me the policy!" class="usa-button" />
@@ -75,7 +75,7 @@ lead: "Use this form to help you create an open data policy! When you’re done,
 
 
 <!-- Handle when someone selects "Other…" from a drop-down -->
-<script type="text/javascript">
+<script>
 function checkOther(val, id) {
   var element = document.getElementById(id);
   if (val === "__other_option__") {
