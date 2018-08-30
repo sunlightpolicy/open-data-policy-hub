@@ -92,7 +92,6 @@ exclude:
 - .gitignore
 - .gitmodules
 - .hound.yml
-- 404.html
 - api-endpoints
 - bin
 - build
