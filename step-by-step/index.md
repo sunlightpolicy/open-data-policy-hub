@@ -158,10 +158,6 @@ See our open data policy communications resources below, and consider submitting
  link="https://docs.google.com/document/d/1bg7bvmjRbzlRYEoozABt0cEMGWjMXW506Gk-0tUtEKw/edit"
 %}
 {% include card_small.html
- tagline="What Works Cities communications checklist"
- link="https://www.bbhub.io/dotorg/sites/8/2016/05/05.26.16_WWC-Communications-Worksheet.pdf"
-%}
-{% include card_small.html
  tagline="Guidelines for guest posts on Sunlight's blog"
  link="https://docs.google.com/document/d/1yIenQo8ydcWAL5OaLtPcaF4EawBeNmLbrJF65_x8m_4/edit"
 %}
