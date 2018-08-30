@@ -1,5 +1,6 @@
 // Custom rules for this site. In general, the goal is to not have ad-hoc rules like this, but it's being done here to avoid messing with the intricately complicated style rules that come with the site. This is only for the featured-resources section of the home page.
 
+
 // Fix display of featured resources on home page:
 
 section#featured-resources ul li:nth-child(even) {
@@ -54,15 +55,6 @@ div.funfact-blockquote#select-guideline {
   font-style: normal;
 }
 
-// @media screen and (min-width: 600px)
-// .usa-grid .usa-width-one-half, .usa-grid-full .usa-width-one-half {
-//     float: left;
-//     display: block;
-//     margin-right: 4.8291579146%;
-//     width: 47.5854210427%;
-//     /* width: 45%; */
-// }
-
 // Fix display of two-column cards:
 
 @media screen and (min-width: 600px) {
@@ -70,5 +62,3 @@ div.funfact-blockquote#select-guideline {
     width: 45% !important;
   }
 }
-
-// .usa-grid .usa-width-one-half:last-child, .usa-grid-full .usa-width-one-half:nth-child(even) { margin-right: 0; }
