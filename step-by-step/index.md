@@ -164,13 +164,16 @@ See our open data policy communications resources below, and consider submitting
  link="https://docs.google.com/document/d/1yIenQo8ydcWAL5OaLtPcaF4EawBeNmLbrJF65_x8m_4/edit"
 %}
 
+<br>
 <!-- <hr> -->
 
 <!-- **Can't put until it's ready! :** Passed an open data policy and curious about what to do next? Check out our Communities + Open Data Hub to learn more about how open data can help you bring impact to your residents. -->
 
+<!-- <section class="usa-section">
 <div class="funfact-blockquote" style="display:table;">
 This resource was created through the generous support of Bloomberg Philanthropies as part of the <a href="https://whatworkscities.bloomberg.org/">What Works Cities</a> program. This interactive guide is meant to aid participating What Works Cities and other communities, as any and all advocates interested in developing public policy to advance open data practice.
 </div>
+</section> -->
 
 <!-- Create table of contents -->
 <script src="{{ site.baseurl }}/assets/js/create-toc-from-headings.js"></script>
