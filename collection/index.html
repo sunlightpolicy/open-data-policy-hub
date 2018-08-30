@@ -11,11 +11,18 @@ redirect_from:
   - /add-a-policy/
 ---
 
-<section class="usa-section usa-grid">
-  <p>Browse our collection of open data policies:</p>
+{% assign sunlight_assist_types = 'wwc,wizard,nonwwc,prewwc' | split: ',' %}
+{% assign docs_sunlight = site.policies | where_exp: "item", "sunlight_assist_types contains item.sunlight" %}
+{% assign docs_byplace = docs_sunlight | group_by: "place" | sort: "name" %}
+{% assign num_sunlight_places = docs_byplace | size %}
+
+<section class="usa-grid usa-width-two-thirds">
+  <p>Our Collection includes policies from {{ site.places | where: "type", "local" | size }} local and {{ site.places | where: "type", "state" | size }} state governments — {{ num_sunlight_places }} of which recieved assistance from or used the resources of Sunlight’s Open Cities team.</p>
+  <h3>Browse our collection of open data policies:</h3>
   <a class="usa-button" href="by-date/">by date of adoption</a>
   <a class="usa-button" href="alpha/">alphabetically by place name</a>
   <p>or select a location from the map below:</p>
+  <br>
 </section>
 
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0/leaflet.css" />
