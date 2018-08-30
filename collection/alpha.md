@@ -2,6 +2,8 @@
 layout: primary
 title: Policies by place name
 breadcrumb: collection
+redirect_from:
+  - /browse/all/
 ---
 
 These are all the open data policies we have on this site:
