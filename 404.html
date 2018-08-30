@@ -1,8 +1,65 @@
-<html lang="en">
-  <head>
-    <title>404</title>
-  </head>
-  <body>
-    <div>For AccessLint purposes only.</div>
-  </body>
-</html>
+---
+title: "Page not found"
+layout: primary
+permalink: /404/
+lead: "404 Error"
+---
+
+<script>
+var all_policies = [];
+function redirectToCorrectPage() {
+  {% for policy in site.policies %}
+    all_policies.push("{{ site.baseurl }}{{ policy.url }}");
+  {% endfor %}
+  console.log(all_policies);
+  var url = window.location.toString();
+  if (url.slice(-1) === "/") {
+    url = url.slice(0, -1);
+  }
+  console.log(url);
+
+  if ('/doc/' in url) {
+    window.location = url.replace('/doc/', '/library/')
+  }
+
+  // temporary, due to a specific situation
+  var urls_to_handle = {
+    'http://www.opendatapolicies.org/Austin,TX(2013)': 'http://www.opendatapolicies.org/doc/austin-tx-2013-08-26/',
+    'http://www.opendatapolicies.org/Cincinnati,OH(20/?q=cincinnati': 'http://www.opendatapolicies.org/doc/cincinnati-oh-2014-05-29/',
+    'http://www.opendatapolicies.org/Denton,%20TX%20(2015/?q=denton': 'http://www.opendatapolicies.org/doc/denton-tx-2015-02-09/'
+  }
+  if (url in urls_to_handle) {
+    console.log('before page redirect');
+    window.location = urls_to_handle[url];
+    console.log('after page redirect');
+  }
+
+  var year_re = /http.+\d{4}$/;
+  if (year_re.test(url)) {
+    matching_urls = [];
+    for (var i = 0; i < all_policies.length; i++) {
+      if (all_policies[i].includes(url)) {
+        matching_urls.push(all_policies[i]);
+      }
+    }
+    console.log(matching_urls);
+    if (matching_urls.length === 1) {
+      window.location = matching_urls[0];
+    } else if (matching_urls.length > 1) {
+      // replace this with the state page
+      window.location = 'http://www.opendatapolicies.org/browse/'
+    } else {
+      window.location = 'http://www.opendatapolicies.org/browse/';
+    }
+  }
+}
+window.onload = redirectToCorrectPage;
+</script>
+
+<p>Sorry, we can’t find what you’re looking for! Check out our <a href="{{ site.baseurl }}">home page</a> to explore the site’s offerings.</p>
+
+<!-- <p>If you were directed here from our old OpenDataPolicies.org site, check out our <a href="{{ site.baseurl }}/collection">Open Data Policy Collection</a>. -->
+
+<p>Feel free to contact us at <a href="mailto:opencities@sunlightfoundation.com">opencities@sunlightfoundation.com</a> if you believe you are getting this page in error or were directed here through a broken link.</p>
+
+<p></p>
