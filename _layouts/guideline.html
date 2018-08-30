@@ -8,7 +8,7 @@ layout: primary
     <h2>Further reading:</h2>
     <ul>
     {% for example in page.examples %}
-        <li><a href="{{ example.url }}">{{ example.title }}</a></li>
+        <li><a href="{{ example.url }}" target="_blank">{{ example.title }}</a></li>
     {% endfor %}
     </ul>
 {% endif %}
@@ -40,7 +40,7 @@ var guideline_id = '{{ page.id }}'.replace(/\/guidelines\/\d\d-/g, '');
             for (var i = 0; i < spans.length; i++) {
                 $(content).append('\n<blockquote>' + $.trim(spans[i].innerText) + '</blockquote>');
             }
-            $(content).append('\n<p><a href="{{ site.baseurl }}{{ doc.url }}?' +
+            $(content).append('\n<p><a href="{{ site.baseurl }}{{ doc.url }}?guideline=' +
                 guideline_id + '">See this text in context »</a></p><br><br>');
             $(div).append(content);
         }
