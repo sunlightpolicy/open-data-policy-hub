@@ -85,21 +85,9 @@ Our team at the Sunlight Foundation has put together guidelines that address wha
 
 ### Resources:
 
-{% assign url_guidelines = "/guidelines" | prepend: site.baseurl %}
-{% include card_small.html
- tagline="Guidelines for your policy"
- link=url_guidelines
- this_site=true
-%}
 {% include card_small.html
  tagline="Checklist: implementing the guidelines"
  link="https://docs.google.com/spreadsheets/d/1TaY7yIQJK-yFi85eplW9V2r2tR9xNtW8Inaq1nO44ec/edit#gid=1152618309"
-%}
-{% assign url_generator = "/generator" | prepend: site.baseurl %}
-{% include card_small.html
- tagline="Open Data Policy Generator"
- link=url_generator
- this_site=true
 %}
 
 ## 4. Collecting stakeholder feedback
