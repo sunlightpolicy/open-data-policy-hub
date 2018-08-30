@@ -20,7 +20,7 @@ While most data comes in structured dataset form, open data can also refer to te
 
 Since open data is a tool, its purpose is different to each person who wields it.
 
-Governments can use open data as a tool to increase internal efficiency, to establish better data governance, to enable internal data-sharing, to keep government performance accountable to the public, or to enable better community data-sharing writ large.
+Governments can use open data as a tool to increase internal efficiency, to establish better data governance, to enable internal data-sharing, to keep government performance accountable to the public, or to enable better community data-sharing.
 
 As advocates, we encourage governments to share open data to remain transparent and accountable to their constituents. We believe that open access to information is a fundamental democratic right. Because information is power, we use open data to help empower residents in local communities.
 
@@ -31,11 +31,9 @@ We haven't yet uncovered _every_ use for open data, but we do know that basic ac
 
 ## Why bother with open data _policy_?
 
-Public policy is essential because it demonstrates public commitment to lasting change. Drafting policy can ensure help establish formal governance processes to make public data-sharing institutional and sustainable. And drafting policy in the open can invite communities to participate in policy-making, demonstrating a real commitment to transparency.
+Public policy is essential because it demonstrates public commitment to lasting change. An open data policy should establish formal governance processes to make public data-sharing institutional and sustainable. [Drafting policy in the open]({{ site.baseurl }}/step-by-step/#4-collecting-stakeholder-feedback) can bring communities into policy-making, demonstrating a real commitment to transparency.
 
-When you pass a policy, you establish oversight over the long-term availability of information — even politically charged information — across all city departments, not simply those that volunteer it. Open data policy can set forth performance metrics and timelines. And to make open data last, the public must be able to keep governments accountable by measuring open data's progress as declared  through formal policy measures.
-
-Learn more by checking out our resources below:
+When you pass a policy, you establish oversight over the long-term availability of information — even politically charged information — across all city departments, not simply those that volunteer it. Open data policy should set forth performance metrics and timelines. And to make open data last, the public must be able to keep governments accountable by measuring open data’s progress as declared through formal policy measures.
 
 ## Resources: the basics
 
