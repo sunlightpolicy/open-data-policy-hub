@@ -7,8 +7,8 @@ navbar:
     permalink: /guidelines/
   - text: Collection
     permalink: /collection/
-  - text: Open Data 101
-    permalink: /open-data-101/
+  - text: Why open data?
+    permalink: /why-open-data/
 
 drawer:
   - text: Step-by-Step
@@ -19,8 +19,8 @@ drawer:
     permalink: /guidelines/
   - text: Collection
     permalink: /collection/
-  - text: Open Data 101
-    permalink: /open-data-101/
+  - text: Why open data?
+    permalink: /why-open-data/
 
 footer:
   - text: Discovery
