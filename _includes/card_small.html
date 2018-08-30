@@ -1,0 +1,23 @@
+{% assign columns = include.columns | default: 2 %}
+
+{% if columns == 2 %}
+  {% assign wds_grid_class = 'usa-width-one-half' %}
+{% else %}
+  {% assign wds_grid_class = 'usa-width-one-third' %}
+{% endif %}
+
+<article class="card {{ wds_grid_class }} usa-width-tablet">
+  <div class="card-link" data-href="{{ include.link }}" tabindex="-1">
+    <div class="card-banner">
+      <a href="{{ include.link }}" tabindex="-1" class="card-link-tagline"{% unless include.this_site %} target="_blank"{% endunless %}><h3 class="h4">{{ include.tagline }}</h3></a>
+      {% if include.description %}
+        <p class="card-description">{{ include.description }}</p>
+      {% endif %}
+    </div>
+    <!-- <a href="{{ include.link }}" class="card-cta link-arrow-right" tabindex="0">
+      Read more
+      <span class="usa-sr-only">about {{ include.tagline }}</span>
+      {% include svg/icons/arrow-right.svg %}
+    </a> -->
+  </div>
+</article>

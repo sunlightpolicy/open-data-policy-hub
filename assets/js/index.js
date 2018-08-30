@@ -1,13 +1,13 @@
 $(function (){
-  // Onclick window location handler
-  $('.card-link').on('click', function(e) {
-    var url = $(this).data().href;
-    if (e.shiftKey || e.ctrlKey || e.metaKey) {
-      window.open(url, '_blank');
-    } else {
-      window.location = url;
-    }
-  });
+  // // Onclick window location handler
+  // $('.card-link').on('click', function(e) {
+  //   var url = $(this).data().href;
+  //   if (e.shiftKey || e.ctrlKey || e.metaKey) {
+  //     window.open(url, '_blank');
+  //   } else {
+  //     window.location = url;
+  //   }
+  // });
 
   // Drawer
   $('.menu-btn, .overlay, .sliding-panel-close').on('click touchstart', function (e) {

@@ -35,32 +35,57 @@ Public policy is essential because it demonstrates public commitment to lasting 
 
 When you pass a policy, you establish oversight over the long-term availability of information — even politically charged information — across all city departments, not simply those that volunteer it. Open data policy should set forth performance metrics and timelines. And to make open data last, the public must be able to keep governments accountable by measuring open data’s progress as declared through formal policy measures.
 
-## Resources: the basics
+## Resources: Background on open data
 
-{% include card.html
- image_src="none"
- tagline="Getting started with open data"
- link="https://simpleopendata.com/"
-%}
-{% include card.html
- image_src="none"
- tagline="Video: Opening data in Philly"
- link="https://www.youtube.com/watch?v=ObrlsMA7c3M"
-%}
-{% include card.html
- image_src="none"
+{% include card_small.html
  tagline="The impacts of open data"
  link="http://assets.sunlightfoundation.com.s3.amazonaws.com/documents/policy/impacts-of-open-data.pdf"
 %}
-{% include card.html
- image_src="none"
+{% include card_small.html
+ tagline="Video: Opening data in Philly"
+ link="https://www.youtube.com/watch?v=ObrlsMA7c3M"
+%}
+{% include card_small.html
+ tagline="Answers to reasons for not opening data"
+ link="https://sunlightfoundation.com/2013/10/22/empowering-the-open-data-dialogue/"
+%}
+{% include card_small.html
  tagline="Frequently asked questions"
  link="http://sunlightfoundation.com/policy/opendatafaq/"
 %}
-{% include card.html
- image_src="none"
- tagline="50+ reasons not to release open data"
- link="https://docs.google.com/a/sunlightfoundation.com/document/d/17HOulBk4-2w3aaqJmY-eFuyomGScyv7nJyiCvYCHwx0/edit?usp=sharing"
+
+## Resources: Getting started
+
+{% include card_small.html
+ tagline="Getting started with open data"
+ link="https://simpleopendata.com/"
+%}
+{% include card_small.html
+ tagline="Metadata for open datasets"
+ link="https://docs.google.com/document/d/1X_kobe-hGqSvr6C-bgnpeftWQUIOkqAZ3331KWldvzs/edit?usp=sharing"
+%}
+{% include card_small.html
+ tagline="File formats for open data"
+ link="https://docs.google.com/document/d/1CoK6nm5HeIcSSD91YdmiSRh_6ZUWhUnM7ZVF5cBtogA/edit?usp=sharing"
+%}
+
+## Resources: Specific issues
+
+{% include card_small.html
+ tagline="Procurement"
+ link="https://docs.google.com/document/d/1wpSVRFHY_eKdpgp9HjPRj7LAA1F6Em-s_1JqMomVg7U/edit?usp=sharing"
+%}
+{% include card_small.html
+ tagline="Public meetings"
+ link="https://docs.google.com/document/d/1it2XXWHkD5V4ho8jG8kpYwA3WJpWQZlEi_ihZlOc4co/edit?usp=sharing"
+%}
+{% include card_small.html
+ tagline="Records requests"
+ link="https://docs.google.com/document/d/1FzMbtLZFl-tqrOwp1UR4yHbn_H3xdSTfAigniH16zmI/edit?usp=sharing"
+%}
+{% include card_small.html
+ tagline="311 requests"
+ link="https://docs.google.com/document/d/1mQWIxFCHIlUMk5SIicCFTHiPwms0sqdpC-9a5a4tHZs/edit?usp=sharing"
 %}
 
 <!-- ### The issues
