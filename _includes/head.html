@@ -71,6 +71,12 @@
   {% if page.image_accessibility %}
     <meta name="twitter:image:alt" content="{{ page.image_accessibility }}">
   {% endif %}
+{% else %}
+<!-- Hacky workaround; should fix later!! -->
+  <link rel="image_src" href="{{ site.baseurl }}/assets/img/baltimore-city-hall-sunrise.jpg">
+  <meta name="image" content="{{ site.baseurl }}/assets/img/baltimore-city-hall-sunrise.jpg">
+  <meta property="og:image" content="{{ site.baseurl }}/assets/img/baltimore-city-hall-sunrise.jpg" />
+  <meta name="twitter:image" content="{{ site.baseurl }}/assets/img/baltimore-city-hall-sunrise.jpg">
 {% endif %}
 
 <!-- Author -->
