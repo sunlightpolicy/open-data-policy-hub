@@ -18,7 +18,7 @@ function redirectToCorrectPage() {
   }
   console.log(url);
 
-  if ('/doc/' in url) {
+  if (url.includes('/doc/')) {
     window.location = url.replace('/doc/', '/library/')
   }
 
