@@ -127,13 +127,15 @@ Hosting internal and [public meetings](https://sunlightfoundation.com/blog/2013/
  link="https://sunlightfoundation.com/2018/01/22/make-open-data-policy-more-participatory-with-our-new-crowdlaw-guide/"
 %}
 
-## 5. Implementing policy
+## 5. Enacting and implementing policy
 
 It’s not enough to simply draft a policy, it needs to be formally adopted and implemented to move the city toward its identified open data objectives.
 
 ### ☑ Build support and enact
 
 Building support for policy will be made easier by defining policy objectives with broad appeal and responding to feedback throughout the open data policy development process. However, those who need to approve the policy (executives, politicians, legal advisors, etc.) may give bills or other policy drafts more critical scrutiny once a draft (and the changes it hopes to bring about) is officially under consideration. Stakeholders who have been involved can serve as allies, testifying at public hearings and otherwise showing their support.
+
+### ☑ Implement and follow up
 
 What’s more, [a robust open data policy will create a clear picture of what implementation means including required actions and timelines](http://sunlightfoundation.com/opendataguidelines/#section-how-to-implement-policy) for [those responsible](http://sunlightfoundation.com/blog/2014/03/28/an-open-data-ombudsman-and-rethinking-oversight-authorities/). The public should be kept in the know and departments may need to be supported and updated as they make the changes necessary to comply with new processes. City halls should be sure to monitor progress toward successful implementation through regular [review of the open data policy](https://sunlightfoundation.com/opendataguidelines/#future-review) and program.
 
