@@ -1,7 +1,6 @@
 ---
 layout: primary
 title: "Why open data?"
-lead: "Understand the fundamentals"
 content_wide: true
 redirect_from:
   - /open-data-101/
