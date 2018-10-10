@@ -19,11 +19,13 @@ While most data comes in structured dataset form, open data can also refer to te
 
 Since open data is a tool, its purpose is different to each person who wields it.
 
-Governments can use open data as a tool to increase internal efficiency, to establish better data governance, to enable internal data-sharing, to keep government performance accountable to the public, or to enable better community data-sharing.
+Governments can use open data as a tool to **increase internal efficiency**, to **establish better data governance**, to **enable internal data-sharing**, to **keep government performance accountable to the public**, or to **enable better community data-sharing**.
 
 As advocates, we encourage governments to share open data to remain transparent and accountable to their constituents. We believe that open access to information is a fundamental democratic right. Because information is power, we use open data to help empower residents in local communities.
 
-Residents, journalists, technologists, activists, researchers, and other community members use open data to do their jobs, to conduct important social research, to report on the issues, to build new technologies, to start their own businesses, or just to make decisions about their day-to-day lives.
+Sharing open data has the potential to **reduce the amount of time governments spend fulfilling records requests**. [Our research suggests](https://sunlightfoundation.com/2018/10/09/research-cities-save-time-on-records-requests-by-doing-open-data-right/) that governments that release open data and have a robust open data policy and portal can expect a reduction in the number of requests for public records compared to the status quo.
+
+Residents, journalists, technologists, activists, researchers, and other community members use open data to **do their jobs**, to **conduct important social research**, to **report on the issues**, to **build new technologies**, to **start their own businesses**, or just to **make decisions about their day-to-day lives**.
 
 We haven't yet uncovered _every_ use for open data, but we do know that basic access to information is the very first step in discovering how open data can enable togetherness, community, collaboration, and innovation.
 
@@ -52,6 +54,11 @@ When you pass a policy, you establish oversight over the long-term availability 
  tagline="Frequently asked questions"
  link="http://sunlightfoundation.com/policy/opendatafaq/"
 %}
+{% include card_small.html
+ tagline="Research: Cities can save time on records requests by doing open data right"
+ link="https://sunlightfoundation.com/2018/10/09/research-cities-save-time-on-records-requests-by-doing-open-data-right/"
+%}
+
 
 ## Resources: Getting started
 
