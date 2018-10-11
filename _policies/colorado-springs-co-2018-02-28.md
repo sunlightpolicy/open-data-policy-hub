@@ -44,12 +44,9 @@ A. The City commits to develop and implement practices to the extent it is prude
 
 1.      Proactively and strategically release City data, making it publicly available in open formats, with no restrictions on use or reuse;
 
-2.      Make decisions about the publication of data, including:
-
-    a.      Prioritization of datasets to publish,
-
-    b.      Tactics for protecting sensitive or protected data, and
-
+2.      Make decisions about the publication of data, including: <br>
+    a.      Prioritization of datasets to publish, <br>
+    b.      Tactics for protecting sensitive or protected data, and <br>
     c.      Function and usability decisions regarding public access to data;
 
 3.      Measure the effectiveness of datasets by connecting open data efforts to the City’s strategic priorities;
