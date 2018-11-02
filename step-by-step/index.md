@@ -17,11 +17,11 @@ We’ve developed this guide to help cities pass open data policies on their own
 
 ### ☑ Build on what exists — don't start from scratch
 
-Successful open data policy does not exist in a vacuum, but rather [builds upon processes and structures already in place within city hall](http://sunlightfoundation.com/opendataguidelines/#build-on-precedent), both formal and informal.
+Successful open data policy does not exist in a vacuum, but rather [builds upon both formal and informal processes and structures already in place](http://sunlightfoundation.com/opendataguidelines/#build-on-precedent).
 
-What are existing practices in [internal data management](http://sunlightfoundation.com/blog/2015/02/11/sharing-sensitive-data-within-government/)? What is the current process for responding to [public records requests](http://sunlightfoundation.com/blog/tag/public-records/)? How might open data fit within or advance existing city goals or mission statements such as those of a comprehensive community plan, or citywide engagement strategy?
+What are existing practices in [internal data management](http://sunlightfoundation.com/blog/2015/02/11/sharing-sensitive-data-within-government/)? What is the current process for responding to [public records requests](http://sunlightfoundation.com/blog/tag/public-records/)? How might open data fit within or advance existing city goals or mission statements, such as those of a comprehensive community plan, or citywide engagement strategy?
 
-It's critical for open data advocates to develop a strategy and approach to policy with this important context in mind, taking advantage of existing resources instead of starting from square one.
+It's critical for open data advocates to develop a strategy to policy with this important context in mind, taking advantage of existing resources instead of starting from square one.
 
 Learn more about Sunlight’s approach to context and strategy below:
 
@@ -36,13 +36,13 @@ Learn more about Sunlight’s approach to context and strategy below:
  link="https://docs.google.com/document/d/1xKvUNM4aIeDmzvY8aODjkrsS0HTRo9VaacGQtlsJBTA/edit"
 %}
 
-## 2. Setting policy objectives for broad appeal
+## 2. Set policy objectives for broad appeal
 
 Different cities — as well as different community groups and individuals — have different reasons for pursuing open data policy. What are your city's open data policy objectives and who can help you reach them?
 
 ### ☑ Define open data policy objectives
 
-There is [no shortage of reasons](http://sunlightfoundation.com/blog/2012/05/02/defending-the-big-tent-open-data-inclusivity-and-activism/) for pursuing open data policy. Whatever these reasons may be for your community, it's important to communicate intended outcomes and aspirations with a clear statement of goals, values or purpose.
+There is [no shortage of reasons](http://sunlightfoundation.com/blog/2012/05/02/defending-the-big-tent-open-data-inclusivity-and-activism/) for pursuing open data policy. Whatever these reasons may be for your community, it's important to communicate intended outcomes and aspirations with a clear statement of goals, values, or purpose.
 
 ### ☑ Build a coalition
 
@@ -55,7 +55,7 @@ A working statement of policy goals can and should be revised and updated as add
 ### Resources:
 
 {% include card_small.html
- tagline="Examples of 'Whereas' clauses in open data policies"
+ tagline="Examples of ‘Whereas’ clauses in open data policies"
  link="https://docs.google.com/spreadsheets/d/1ySe2asRlhqqHCpDoc4Zp5qINuo-9iHeq2SdgYzB4B7Q/edit#gid=0"
 %}
 {% include card_small.html
@@ -63,7 +63,7 @@ A working statement of policy goals can and should be revised and updated as add
  link="https://www.flickr.com/photos/sunlightfoundation/sets/72157632913192963"
 %}
 
-## 3. Drafting policy language
+## 3. Draft policy language
 
 After considering existing contexts and workshopping open data policy objectives with a growing coalition of allies, the next step is crafting and proposing specific language for a new policy or updates to an existing policy framework.
 
@@ -71,15 +71,15 @@ After considering existing contexts and workshopping open data policy objectives
 
 ### ☑ Learn from examples
 
-New policy drafts can benefit from the ideas and language found in examples from other cities that have enacted open data policies.
+New policy drafts can benefit from ideas and language found in examples from other cities that have enacted open data policies.
 
-We recommend that you explore the policies on our [Open Data Policy Collection]({{ site.baseurl }}/collection) to get a sense of the kind of language other places have used in their policies. We also encourage you to copy, paste, and remix the content as you please.
+Explore existing open data policies in our [Open Data Policy Collection]({{ site.baseurl }}/collection) to get a sense of the kind of language commonly used in open data policies. Cities are encouraged to copy, paste, and adjust the content as to better suit their needs.
 
 <a class="usa-button" href="{{ site.baseurl }}/collection">Explore the Open Data Policy Collection</a>
 
 ### ☑ Incorporate best practices
 
-Our team at the Sunlight Foundation has put together guidelines that address what data should be public, how to make data public, and how to implement your policy. Incorporating these guidelines can be key to the success of your program and the effectiveness of your policy.
+The Sunlight Foundation’s Open Cities team created guidelines addressing what data should be public, how to make data public, and how to implement policy. Incorporating these guidelines can aid in the success of an open data program, and ensure effectiveness of open data policy.
 
 <a class="usa-button" href="{{ site.baseurl }}/guidelines">Read the Open Data Policy Guidelines</a>
 
@@ -90,15 +90,15 @@ Our team at the Sunlight Foundation has put together guidelines that address wha
  link="https://docs.google.com/spreadsheets/d/1TaY7yIQJK-yFi85eplW9V2r2tR9xNtW8Inaq1nO44ec/edit#gid=1152618309"
 %}
 
-## 4. Collecting stakeholder feedback
+## 4. Collect stakeholder feedback
 
 ### ☑ Craft policy in the open
 
-Throughout the entire open data process it’s important to include all relevant stakeholders on both the open policy objectives and program design. This means stakeholders both inside and outside city hall—anyone who may have an interest or may be impacted by new open data policy.
+It’s important to include all relevant stakeholders throughout the entire open data process, including discussions of policy objectives and program design. Relevant stakeholders include those both inside and outside city hall — in essence, anyone who may have an interest or be impacted by new open data policy.
 
-This engagement is especially critical as the policy language itself is drafted.
+This engagement is especially critical in drafting policy language.
 
-Hosting internal and [public meetings](https://sunlightfoundation.com/blog/2013/12/04/montgomery-countys-open-data-town-hall-the-town-hall-of-the-future/) is one tried-and-true approach. Many cities are also exploring [collaborative online approaches to policy making](https://sunlightfoundation.com/blog/2016/03/11/crowdlaw-and-open-data-policy-a-perfect-match/) that empower external stakeholders to participate in the process. One tool is [Madison](https://mymadison.io/), a free platform that allows the public to comment on proposed policies. Check out the resources below for more tools and guides for engaging stakeholders in drafting policy.
+Hosting internal and [public meetings](https://sunlightfoundation.com/blog/2013/12/04/montgomery-countys-open-data-town-hall-the-town-hall-of-the-future/) is one tried-and-true approach. Many cities are also exploring [collaborative online approaches to policy making](https://sunlightfoundation.com/blog/2016/03/11/crowdlaw-and-open-data-policy-a-perfect-match/) that empower external stakeholders to participate in the process. This approach was used to great success in [Madison](https://mymadison.io/), where the city provided a free platform facilitating public comment on proposed policies. Check out the resources below for more tools and guides for engaging stakeholders in drafting policy.
 
 ### Resources:
 
@@ -127,23 +127,23 @@ Hosting internal and [public meetings](https://sunlightfoundation.com/blog/2013/
  link="https://sunlightfoundation.com/2018/01/22/make-open-data-policy-more-participatory-with-our-new-crowdlaw-guide/"
 %}
 
-## 5. Enacting and implementing policy
+## 5. Enact and implement policy
 
-It’s not enough to simply draft a policy, it needs to be formally adopted and implemented to move the city toward its identified open data objectives.
+It’s not enough to simply draft a policy, it must be formally adopted and implemented to move the city toward its identified open data objectives.
 
 ### ☑ Build support and enact
 
-Building support for policy will be made easier by defining policy objectives with broad appeal and responding to feedback throughout the open data policy development process. However, those who need to approve the policy (executives, politicians, legal advisors, etc.) may give bills or other policy drafts more critical scrutiny once a draft (and the changes it hopes to bring about) is officially under consideration. Stakeholders who have been involved can serve as allies, testifying at public hearings and otherwise showing their support.
+Building support for policy will be made easier by defining policy objectives with broad appeal and responding to feedback throughout the open data policy development process. However, those who need to approve the policy (executives, politicians, legal advisors, etc.) may give bills or other policy drafts more critical scrutiny once a draft (and the changes it hopes to bring about) is officially under consideration. Stakeholders who have been involved can serve as allies, testifying at public hearings and demonstrating their support.
 
 ### ☑ Implement and follow up
 
-What’s more, [a robust open data policy will create a clear picture of what implementation means including required actions and timelines](http://sunlightfoundation.com/opendataguidelines/#section-how-to-implement-policy) for [those responsible](http://sunlightfoundation.com/blog/2014/03/28/an-open-data-ombudsman-and-rethinking-oversight-authorities/). The public should be kept in the know and departments may need to be supported and updated as they make the changes necessary to comply with new processes. City halls should be sure to monitor progress toward successful implementation through regular [review of the open data policy](https://sunlightfoundation.com/opendataguidelines/#future-review) and program.
+[A robust open data policy will create a clear picture of what implementation means, including required actions and timelines](http://sunlightfoundation.com/opendataguidelines/#section-how-to-implement-policy) for [those responsible](http://sunlightfoundation.com/blog/2014/03/28/an-open-data-ombudsman-and-rethinking-oversight-authorities/). The public should be kept in the know, and departments may require support and consistent communication as they make the changes necessary to comply with new processes. City halls should be sure to monitor progress toward successful implementation through regular [review of the open data policy](https://sunlightfoundation.com/opendataguidelines/#future-review) and program.
 
-## 6. Announcing your policy
+## 6. Announce policy
 
 ### ☑ Promote
 
-A successful open data program requires sustained public participation. You should announce and promote the new or updated open data policy in your public communications. You should also share your city’s progress toward making data more accessible to the public by including newly released datasets, projects created using the city’s data and other key successes.
+A successful open data program requires sustained public participation. The new or updated open data policy should be announced through several channels to communicate with the public — government websites, social media, etc. Cities should also share progress toward making data more accessible to the public by including newly released datasets, projects created using the city’s data, and other notable successes.
 
 See our open data policy communications resources below, and consider submitting a guest blog to our [OpenGov Voices series](https://sunlightfoundation.com/blog/series/opengov-voices/).
 
@@ -158,7 +158,7 @@ See our open data policy communications resources below, and consider submitting
  link="https://docs.google.com/document/d/1bg7bvmjRbzlRYEoozABt0cEMGWjMXW506Gk-0tUtEKw/edit"
 %}
 {% include card_small.html
- tagline="Guidelines for guest posts on Sunlight's blog"
+ tagline="Guidelines for guest posts on Sunlight’s blog"
  link="https://docs.google.com/document/d/1yIenQo8ydcWAL5OaLtPcaF4EawBeNmLbrJF65_x8m_4/edit"
 %}
 
