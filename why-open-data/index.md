@@ -21,20 +21,20 @@ Since open data is a tool, its purpose is different to each person who wields it
 
 Governments can use open data as a tool to **increase internal efficiency**, to **establish better data governance**, to **enable internal data-sharing**, to **keep government performance accountable to the public**, or to **enable better community data-sharing**.
 
-As advocates, we encourage governments to share open data to remain transparent and accountable to their constituents. We believe that open access to information is a fundamental democratic right. Because information is power, we use open data to help empower residents in local communities.
+As advocates, we encourage governments to share data to remain transparent and accountable to their constituents. We believe that open access to information is a fundamental democratic right. Because information is power, we use open data to help empower residents in local communities.
 
-Sharing open data has the potential to **reduce the amount of time governments spend fulfilling records requests**. [Our research suggests](https://sunlightfoundation.com/2018/10/09/research-cities-save-time-on-records-requests-by-doing-open-data-right/) that governments that release open data and have a robust open data policy and portal can expect a reduction in the number of requests for public records compared to the status quo.
+Sharing open data has the potential to **reduce the amount of time governments spend fulfilling records requests**. [Our research suggests](https://sunlightfoundation.com/2018/10/09/research-cities-save-time-on-records-requests-by-doing-open-data-right/) governments that release open data and have a robust open data policy and portal can expect a significant reduction in the number of requests for public records.
 
-Residents, journalists, technologists, activists, researchers, and other community members use open data to **do their jobs**, to **conduct important social research**, to **report on the issues**, to **build new technologies**, to **start their own businesses**, or just to **make decisions about their day-to-day lives**.
+Residents, journalists, technologists, activists, researchers, and other community members use open data to **do their jobs**, to **conduct important social research**, to **report on issues**, to **build new technologies**, to **start their own businesses**, or just to **make decisions about their day-to-day lives**.
 
-We haven't yet uncovered _every_ use for open data, but we do know that basic access to information is the very first step in discovering how open data can enable togetherness, community, collaboration, and innovation.
+We've yet to uncover _every_ use for open data, but we do know that basic access to information is the very first step in discovering how open data can enable togetherness, community, collaboration, and innovation.
 
 
 ## Why bother with open data _policy_?
 
 Public policy is essential because it demonstrates public commitment to lasting change. An open data policy should establish formal governance processes to make public data-sharing institutional and sustainable. [Drafting policy in the open]({{ site.baseurl }}/step-by-step/#4-collecting-stakeholder-feedback) can bring communities into policy-making, demonstrating a real commitment to transparency.
 
-When you pass a policy, you establish oversight over the long-term availability of information — even politically charged information — across all city departments, not simply those that volunteer it. Open data policy should set forth performance metrics and timelines. And to make open data last, the public must be able to keep governments accountable by measuring open data’s progress as declared through formal policy measures.
+When passing a policy, governments establish oversight over the long-term availability of information — even politically charged information — across all city departments, not simply those that volunteer it. Open data policy should set forth performance metrics and timelines to ensure policy goals are met. And to make open data last, the public must be able to keep governments accountable by measuring open data’s progress as declared through formal policy measures.
 
 ## Resources: Background on open data
 
