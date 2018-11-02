@@ -55,7 +55,7 @@ A working statement of policy goals can and should be revised and updated as add
 ### Resources:
 
 {% include card_small.html
- tagline="Examples of 'Whereas' clauses in open data policies"
+ tagline="Examples of ‘Whereas’ clauses in open data policies"
  link="https://docs.google.com/spreadsheets/d/1ySe2asRlhqqHCpDoc4Zp5qINuo-9iHeq2SdgYzB4B7Q/edit#gid=0"
 %}
 {% include card_small.html
@@ -73,13 +73,13 @@ After considering existing contexts and workshopping open data policy objectives
 
 New policy drafts can benefit from ideas and language found in examples from other cities that have enacted open data policies.
 
-Explore existing open data policies in the [Open Data Policy Collection]({{ site.baseurl }}/collection) to get a sense of the kind of language commonly used in open data policies. Cities are encouraged to copy, paste, and adjust the content as to better suit their needs.
+Explore existing open data policies in our [Open Data Policy Collection]({{ site.baseurl }}/collection) to get a sense of the kind of language commonly used in open data policies. Cities are encouraged to copy, paste, and adjust the content as to better suit their needs.
 
 <a class="usa-button" href="{{ site.baseurl }}/collection">Explore the Open Data Policy Collection</a>
 
 ### ☑ Incorporate best practices
 
-The Sunlight Foundation Open Cities team created guidelines addressing what data should be public, how to make data public, and how to implement policy. Incorporating these guidelines can aid in the success of an open data program, and ensure effectiveness of open data policy.
+The Sunlight Foundation’s Open Cities team created guidelines addressing what data should be public, how to make data public, and how to implement policy. Incorporating these guidelines can aid in the success of an open data program, and ensure effectiveness of open data policy.
 
 <a class="usa-button" href="{{ site.baseurl }}/guidelines">Read the Open Data Policy Guidelines</a>
 
@@ -143,7 +143,7 @@ Building support for policy will be made easier by defining policy objectives wi
 
 ### ☑ Promote
 
-A successful open data program requires sustained public participation. The new or updated open data policy should be announced through governments' channels to communicate with the public (ex, government websites, social media, etc). Cities should also share progress toward making data more accessible to the public by including newly released datasets, projects created using the city’s data, and other notable successes.
+A successful open data program requires sustained public participation. The new or updated open data policy should be announced through several channels to communicate with the public — government websites, social media, etc. Cities should also share progress toward making data more accessible to the public by including newly released datasets, projects created using the city’s data, and other notable successes.
 
 See our open data policy communications resources below, and consider submitting a guest blog to our [OpenGov Voices series](https://sunlightfoundation.com/blog/series/opengov-voices/).
 
@@ -158,7 +158,7 @@ See our open data policy communications resources below, and consider submitting
  link="https://docs.google.com/document/d/1bg7bvmjRbzlRYEoozABt0cEMGWjMXW506Gk-0tUtEKw/edit"
 %}
 {% include card_small.html
- tagline="Guidelines for guest posts on Sunlight's blog"
+ tagline="Guidelines for guest posts on Sunlight’s blog"
  link="https://docs.google.com/document/d/1yIenQo8ydcWAL5OaLtPcaF4EawBeNmLbrJF65_x8m_4/edit"
 %}
 
