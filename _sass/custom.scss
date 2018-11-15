@@ -78,7 +78,6 @@ div.funfact-blockquote#select-guideline {
     transition: 0.4s;
     margin-bottom: 12px;
     background-image: none;
-    // font-family: "futura_md_btmedium", "proxima-nova", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -100,12 +99,6 @@ div.funfact-blockquote#select-guideline {
 }
 
 /* Style the accordion panel. Note: hidden by default */
-/* .panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-} */
 .panel {
     padding: 0 18px;
     background-color: white;
