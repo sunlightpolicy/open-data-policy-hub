@@ -1,0 +1,143 @@
+---
+layout: primary
+title: Analytics
+---
+
+{% assign states = site.places | where: "type", "state" %}
+{% assign locals = site.places | where: "type", "local" %}
+{% assign loc_wwc = locals | where: "wwc", true %}
+{% assign loc_nonwwc = locals | where: "wwc", false %}
+{% assign unknowns = '' | split: '' %}
+{% for place in site.places %}
+  {% if place.type != 'local' %}
+    {% if place.type != 'state' %}
+      {% assign unknowns = unknowns | push: place %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% assign num_unknowns = unknowns | size %}
+<!-- Need to include locals where WWC status is unknown -->
+
+<p>All numbers reported below are numbers of places/governments. In general, number of places is a better metric than number of policies, since a place may have multiple "policies" that are really meant to go together (like a Council Resolution then an Administrative Policy) or successive policies that build on one another.</p>
+
+<h2>Key figures</h2>
+
+<p>[Could put a summary sentence or two here, including a select number of the figures below.]</p>
+
+<!-- Total -->
+{% include accordion.html docs=site.policies title='Total governments that have policies' %}
+
+<!-- State -->
+{% assign ids_states = states | map: "place" %}
+{% assign docs_states = site.policies | where_exp: "item", "ids_states contains item.place" %}
+{% include accordion.html docs=docs_states title='State governments that have policies' %}
+
+<!-- Local -->
+{% assign ids_locals = locals | map: "place" %}
+{% assign docs_locals = site.policies | where_exp: "item", "ids_locals contains item.place" %}
+{% include accordion.html docs=docs_locals title='Local governments that have policies' %}
+
+<!-- Splitting the locals -->
+{% assign docs_locals_old = '' | split: '' %}
+{% assign docs_locals_new = '' | split: '' %}
+{% for local_doc in docs_locals %}
+  {% assign string_date = local_doc.date | date: '%F' %}
+  {% if string_date < '2015-05-01' %}
+    {% assign docs_locals_old = docs_locals_old | push: local_doc %}
+  {% else %}
+    {% assign docs_locals_new = docs_locals_new | push: local_doc %}
+  {% endif %}
+{% endfor %}
+
+<!-- Local pre-WWC -->
+{% assign locals_old_uniq_places = docs_locals_old | map: "place" | uniq %}
+{% include accordion.html docs=docs_locals_old title='Local governments that had policies before the What Works Cities program' %}
+
+<!-- Local post-WWC -->
+{% assign locals_new_uniq_places = docs_locals_new | map: "place" | uniq %}
+{% include accordion.html docs=docs_locals_new title='Local governments that have passed policies during the WWC program' %}
+
+<!-- Overlap in pre- vs. post-WWC -->
+{% assign locals_both_place_ids = '' | split: '' %}
+{% for place_id in locals_old_uniq_places %}
+  {% if locals_new_uniq_places contains place_id %}
+    {% assign locals_both_place_ids = locals_both_place_ids | push: place_id %}
+  {% endif %}
+{% endfor %}
+{% assign docs_locals_both = site.policies | where_exp: "item", "locals_both_place_ids contains item.place" %}
+{% include accordion.html docs=docs_locals_both title='Local governments that had pre-WWC policies but have also passed newer ones' %}
+
+<!-- Explaining how the above numbers fit together -->
+<p>How the numbers add up:</p>
+<p>{{ locals_old_uniq_places | size }} local before WWC + {{ locals_new_uniq_places | size }} local during WWC − {{ locals_both_place_ids | size }} overlap = {{ locals | size }} total local</p>
+<p>{{ locals | size }} local + {{ states | size }} state {% if num_unknowns > 0 %}+ {{ num_unknowns }} unknown {% endif %}= {{ site.places | size }} grand total</p>
+<br>
+
+<!-- Got Sunlight assistance -->
+{% assign sunlight_assist_types = 'wwc,wizard,nonwwc,prewwc' | split: ',' %}
+{% assign docs_sunlight = site.policies | where_exp: "item", "sunlight_assist_types contains item.sunlight" %}
+{% include accordion.html docs=docs_sunlight title='Received assistance from (or used resources by) Sunlight' %}
+
+<!-- Got Sunlight assistance during WWC -->
+{% assign docs_sunlight_during_wwc = '' | split: '' %}
+{% for sunlight_doc in docs_sunlight %}
+  {% assign string_date = sunlight_doc.date | date: '%F' %}
+  {% if string_date >= '2015-05-01' %}
+    {% assign docs_sunlight_during_wwc = docs_sunlight_during_wwc | push: sunlight_doc %}
+  {% endif %}
+{% endfor %}
+{% include accordion.html docs=docs_sunlight_during_wwc title='Received assistance from (or used resources by) Sunlight during the WWC program' %}
+
+<p>Now let's look at three categories of places: What Works Cities, non-WWC local governments, and state governments. Note that the lists here only include those with policies. So, for example, the number next to "What Works Cities" represents the number of What Works Cities with policies, not the total number of What Works Cities.</p>
+<br>
+
+{% include analytics-place-section.html title="1. What Works Cities" places_subset=loc_wwc %}
+
+{% include analytics-place-section.html title="2. Non-WWC local governments" places_subset=loc_nonwwc %}
+
+{% include analytics-place-section.html title="3. State governments" places_subset=states %}
+
+<!-- Only if there are places of unknown type -->
+{% if num_unknowns > 0 %}
+<h2>4. Places of unknown type ({{ num_unknowns }})</h2>
+<ul>
+  {% for unknown_place in unknowns %}
+  <li>{% include placename.html doc_page=unknown_place %}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+<script>
+// var acc = document.getElementsByClassName("accordion");
+// var i;
+//
+// for (i = 0; i < acc.length; i++) {
+//     acc[i].addEventListener("click", function() {
+//         /* Toggle between adding and removing the "active" class,
+//         to highlight the button that controls the panel */
+//         this.classList.toggle("active");
+//
+//         /* Toggle between hiding and showing the active panel */
+//         var panel = this.nextElementSibling;
+//         if (panel.style.display === "block") {
+//             panel.style.display = "none";
+//         } else {
+//             panel.style.display = "block";
+//         }
+//     });
+// }
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
