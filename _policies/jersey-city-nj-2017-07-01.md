@@ -5,7 +5,7 @@ date: 2017-07-01
 legal_custom: Administrative Policy
 sunlight: didnt
 policy_urls:
-  PDF: http://data.jerseycitynj.gov/dataset/jersey-city-open-data-policy/resource/6510ee7c-d667-4fb8-8c46-ee2ee0dc76ea
+  PDF: https://data.jerseycitynj.gov/explore/dataset/jersey-city-open-data-policy/information/
 ---
 
 The City of Jersey City is committed to providing public access to data and other information on our resources, operations, and activities in an effort to:
