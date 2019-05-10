@@ -11,7 +11,7 @@ Open data is data that can be freely used, re-used and redistributed by anyone â
 <span>â€” Open Data Handbook, Open Knowledge International</span>
 </div>
 
-Open data is a tool that makes collaboration between residents and governments easier and more productive. Open government data helps residents keep their governments transparent and accountable. When shared online, open datasets should provided in bulk, in open formats, and without barriers to use for maximum accessibility.
+Open data is a tool that makes collaboration between residents and governments easier and more productive. Open government data helps residents keep their governments transparent and accountable. When shared online, open datasets should be provided in bulk, in open formats, and without barriers to use for maximum accessibility.
 
 While most data comes in structured dataset form, open data can also refer to text, spatial, or other qualitative data shared by governments as public information. In the broadest sense, open data is what we call government information that establishes better democratic norms through transparency and accountability, and that mobilizes residents to solve problems together.
 
