@@ -1,0 +1,3 @@
+The Generator itself is at `index.html`, while the Sample Open Data Policy that it’s based on is at `sample.md`.
+
+The way that the Generator works is that when you hit “Send me the policy!” it then silently submits the user’s input to [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe2BeXHF-vkjbfmYRK0dIxYtWyaXUCkgG0a6twAIqRdwJM8dg/viewform). This is awesome because it means that all of the subsequent magic is handled by Google Forms and Google Apps Script. Speaking of that subsequent magic... basically what happens is that the input information is plugged into the Sample Open Data Policy and then emailed to the user. [See here](https://github.com/sunlightpolicy/open-data-policy-wizard) for details.
