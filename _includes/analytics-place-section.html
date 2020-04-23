@@ -1,7 +1,7 @@
 <h2>{{ include.title }} ({{ include.places_subset | size }})</h2>
 
 {% assign place_ids = include.places_subset | map: "place" %}
-{% assign place_docs = site.documents | where_exp: "item", "place_ids contains item.place" %}
+{% assign place_docs = site.policies | where_exp: "item", "place_ids contains item.place" %}
 {% assign grouped_docs = place_docs | group_by: "sunlight" %}
 
 <!-- Add a total alphabetical list? -->
